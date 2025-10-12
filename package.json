@@ -1,8 +1,17 @@
 {
-  "devDependencies": {
-    "vitest": "^3.2.4"
+  "name": "human-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:ui": "vitest",
+    "test:cov": "vitest run --coverage"
   },
-  "dependencies": {
-    "argon2-browser": "^1.18.0"
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.0.0"
   }
 }
