@@ -29,7 +29,9 @@ interface VaultStatus {
 function App() {
   const [vaultStatus, setVaultStatus] = useState<VaultStatus | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [currentView, setCurrentView] = useState<'query' | 'memories' | 'insights' | 'settings'>('query');
+  const [currentView, setCurrentView] = useState<'query' | 'memories' | 'insights' | 'settings'>(
+    'query'
+  );
 
   useEffect(() => {
     initializeApp();
@@ -47,7 +49,7 @@ function App() {
         setVaultStatus({
           is_initialized: false,
           is_unlocked: false,
-          memory_count: 0
+          memory_count: 0,
         });
       }
     } catch (error) {
@@ -56,7 +58,7 @@ function App() {
       setVaultStatus({
         is_initialized: false,
         is_unlocked: false,
-        memory_count: 0
+        memory_count: 0,
       });
     } finally {
       setIsLoading(false);
@@ -102,7 +104,11 @@ function App() {
 }
 
 // Vault unlock component
-function VaultUnlock({ onVaultUnlocked }: { readonly onVaultUnlocked: (status: VaultStatus) => void }) {
+function VaultUnlock({
+  onVaultUnlocked,
+}: {
+  readonly onVaultUnlocked: (status: VaultStatus) => void;
+}) {
   const [password, setPassword] = useState('');
   const [isUnlocking, setIsUnlocking] = useState(false);
   const [error, setError] = useState('');
@@ -125,7 +131,7 @@ function VaultUnlock({ onVaultUnlocked }: { readonly onVaultUnlocked: (status: V
           is_unlocked: true,
           name: 'My Personal Vault',
           memory_count: 0,
-          last_sync: new Date().toISOString()
+          last_sync: new Date().toISOString(),
         };
         onVaultUnlocked(mockStatus);
       }
@@ -148,7 +154,7 @@ function VaultUnlock({ onVaultUnlocked }: { readonly onVaultUnlocked: (status: V
             <input
               type="password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={e => setPassword(e.target.value)}
               placeholder="Master password"
               required
               disabled={isUnlocking}

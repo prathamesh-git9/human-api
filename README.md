@@ -9,6 +9,7 @@ Ask "your memory" and get sourced, trustworthy answers — locally, with citatio
 ## 🏗️ Architecture
 
 ### Core Components
+
 - **Crypto**: Argon2id + AES-GCM encryption for local-first security
 - **Chunking**: Smart text preprocessing with overlap and importance scoring
 - **Embeddings**: Local embedding generation (simulated, ready for ONNX models)
@@ -16,6 +17,7 @@ Ask "your memory" and get sourced, trustworthy answers — locally, with citatio
 - **RAG**: Complete retrieval pipeline with citation tracking
 
 ### Desktop App
+
 - **Frontend**: React + TypeScript + Tailwind CSS
 - **Backend**: Tauri (Rust) with SQLite + LanceDB
 - **Worker**: Background embedding processing with retry logic
@@ -126,4 +128,3 @@ This project uses GitHub Actions for continuous integration and deployment:
 ## 📄 License
 
 MIT License - see LICENSE file for details.
-

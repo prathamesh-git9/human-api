@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f8fafc;
@@ -360,7 +360,7 @@ body {
 }
 
 .query-help li::before {
-  content: "•";
+  content: '•';
   position: absolute;
   left: 0;
   color: #0ea5e9;
@@ -493,12 +493,12 @@ body {
   transition: all 0.2s;
 }
 
-.form-actions button[type="submit"] {
+.form-actions button[type='submit'] {
   background: #3b82f6;
   color: white;
 }
 
-.form-actions button[type="submit"]:hover:not(:disabled) {
+.form-actions button[type='submit']:hover:not(:disabled) {
   background: #2563eb;
 }
 
@@ -732,7 +732,7 @@ body {
 }
 
 .security-info li::before {
-  content: "✓";
+  content: '✓';
   position: absolute;
   left: 0;
   color: #0ea5e9;
@@ -821,7 +821,6 @@ body {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -833,7 +832,6 @@ body {
 }
 
 @keyframes bounce {
-
   0%,
   80%,
   100% {

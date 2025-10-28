@@ -12,7 +12,7 @@ const { wrappedDEK, nonce: wrapNonce } = await wrapDEK(kekKey, dek);
 const unwrapped = await unwrapDEK(kekKey, wrappedDEK, wrapNonce);
 
 if (Buffer.compare(Buffer.from(dek), Buffer.from(unwrapped)) !== 0) {
-    throw new Error('DEK unwrap mismatch');
+  throw new Error('DEK unwrap mismatch');
 }
 
 const msg = 'hello ' + randomBytes(4).toString('hex');
@@ -24,7 +24,11 @@ if (plain !== msg) throw new Error('Seal/Open round-trip failed');
 const tampered = Buffer.from(cipher);
 tampered[3] ^= 0xff;
 let failed = false;
-try { await openString(unwrapped, tampered, nonce); } catch { failed = true; }
+try {
+  await openString(unwrapped, tampered, nonce);
+} catch {
+  failed = true;
+}
 if (!failed) throw new Error('Tamper not detected');
 
 console.log('OK: crypto smoke passed');
