@@ -111,7 +111,7 @@ function VaultUnlock({ onVaultUnlocked }: { onVaultUnlocked: (status: VaultStatu
       <div className="vault-unlock-content">
         <h1>🔐 Unlock Vault</h1>
         <p>Enter your master password to access your memories</p>
-        
+
         <form onSubmit={handleUnlock} className="vault-form">
           <div className="form-group">
             <input
@@ -123,9 +123,9 @@ function VaultUnlock({ onVaultUnlocked }: { onVaultUnlocked: (status: VaultStatu
               disabled={isUnlocking}
             />
           </div>
-          
+
           {error && <div className="error-message">{error}</div>}
-          
+
           <button type="submit" disabled={isUnlocking || !password}>
             {isUnlocking ? 'Unlocking...' : 'Unlock Vault'}
           </button>

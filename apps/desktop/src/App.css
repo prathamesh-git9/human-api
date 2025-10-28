@@ -189,7 +189,8 @@ body {
   gap: 0.5rem;
 }
 
-.voice-button, .query-button {
+.voice-button,
+.query-button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 8px;
@@ -820,18 +821,25 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
   }
 }
 
 @keyframes bounce {
-  0%, 80%, 100% {
+
+  0%,
+  80%,
+  100% {
     transform: scale(0);
   }
+
   40% {
     transform: scale(1);
   }
@@ -1129,38 +1137,38 @@ body {
   .app {
     flex-direction: column;
   }
-  
+
   .sidebar {
     width: 100%;
     height: auto;
   }
-  
+
   .sidebar-nav {
     display: flex;
     overflow-x: auto;
   }
-  
+
   .nav-item {
     white-space: nowrap;
     min-width: 120px;
   }
-  
+
   .query-view,
   .memories-view,
   .insights-view,
   .settings-view {
     padding: 1rem;
   }
-  
+
   .vault-setup-content,
   .vault-unlock-content {
     padding: 2rem;
   }
-  
+
   .stats-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
-  
+
   .data-actions {
     flex-direction: column;
   }
