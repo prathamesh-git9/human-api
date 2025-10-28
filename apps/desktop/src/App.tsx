@@ -1,50 +1,137 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import { invoke } from "@tauri-apps/api/core";
-import "./App.css";
+import React, { useState, useEffect } from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { invoke } from '@tauri-apps/api/core';
+import { VaultProvider } from './contexts/VaultContext';
+import { MemoryProvider } from './contexts/MemoryContext';
+import Sidebar from './components/Sidebar';
+import MainContent from './components/MainContent';
+import VaultSetup from './components/VaultSetup';
+import LoadingScreen from './components/LoadingScreen';
+import './App.css';
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      retry: 1,
+    },
+  },
+});
+
+interface VaultStatus {
+  is_initialized: boolean;
+  is_unlocked: boolean;
+  name?: string;
+  memory_count: number;
+  last_sync?: string;
+}
 
 function App() {
-  const [greetMsg, setGreetMsg] = useState("");
-  const [name, setName] = useState("");
+  const [vaultStatus, setVaultStatus] = useState<VaultStatus | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [currentView, setCurrentView] = useState<'query' | 'memories' | 'insights' | 'settings'>('query');
 
-  async function greet() {
-    // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
-    setGreetMsg(await invoke("greet", { name }));
+  useEffect(() => {
+    initializeApp();
+  }, []);
+
+  const initializeApp = async () => {
+    try {
+      const status = await invoke<VaultStatus>('get_vault_status');
+      setVaultStatus(status);
+    } catch (error) {
+      console.error('Failed to get vault status:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleVaultCreated = (status: VaultStatus) => {
+    setVaultStatus(status);
+  };
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
+
+  if (!vaultStatus?.is_initialized) {
+    return (
+      <QueryClientProvider client={queryClient}>
+        <VaultSetup onVaultCreated={handleVaultCreated} />
+      </QueryClientProvider>
+    );
+  }
+
+  if (!vaultStatus.is_unlocked) {
+    return (
+      <QueryClientProvider client={queryClient}>
+        <VaultUnlock onVaultUnlocked={handleVaultCreated} />
+      </QueryClientProvider>
+    );
   }
 
   return (
-    <main className="container">
-      <h1>Welcome to Tauri + React</h1>
+    <QueryClientProvider client={queryClient}>
+      <VaultProvider vaultStatus={vaultStatus}>
+        <MemoryProvider>
+          <div className="app">
+            <Sidebar currentView={currentView} onViewChange={setCurrentView} />
+            <MainContent currentView={currentView} />
+          </div>
+        </MemoryProvider>
+      </VaultProvider>
+    </QueryClientProvider>
+  );
+}
 
-      <div className="row">
-        <a href="https://vite.dev" target="_blank">
-          <img src="/vite.svg" className="logo vite" alt="Vite logo" />
-        </a>
-        <a href="https://tauri.app" target="_blank">
-          <img src="/tauri.svg" className="logo tauri" alt="Tauri logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+// Vault unlock component
+function VaultUnlock({ onVaultUnlocked }: { onVaultUnlocked: (status: VaultStatus) => void }) {
+  const [password, setPassword] = useState('');
+  const [isUnlocking, setIsUnlocking] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleUnlock = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsUnlocking(true);
+    setError('');
+
+    try {
+      const status = await invoke<VaultStatus>('unlock_vault', { master_password: password });
+      onVaultUnlocked(status);
+    } catch (err) {
+      setError('Failed to unlock vault. Please check your password.');
+      console.error('Vault unlock error:', err);
+    } finally {
+      setIsUnlocking(false);
+    }
+  };
+
+  return (
+    <div className="vault-unlock">
+      <div className="vault-unlock-content">
+        <h1>🔐 Unlock Vault</h1>
+        <p>Enter your master password to access your memories</p>
+        
+        <form onSubmit={handleUnlock} className="vault-form">
+          <div className="form-group">
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Master password"
+              required
+              disabled={isUnlocking}
+            />
+          </div>
+          
+          {error && <div className="error-message">{error}</div>}
+          
+          <button type="submit" disabled={isUnlocking || !password}>
+            {isUnlocking ? 'Unlocking...' : 'Unlock Vault'}
+          </button>
+        </form>
       </div>
-      <p>Click on the Tauri, Vite, and React logos to learn more.</p>
-
-      <form
-        className="row"
-        onSubmit={(e) => {
-          e.preventDefault();
-          greet();
-        }}
-      >
-        <input
-          id="greet-input"
-          onChange={(e) => setName(e.currentTarget.value)}
-          placeholder="Enter a name..."
-        />
-        <button type="submit">Greet</button>
-      </form>
-      <p>{greetMsg}</p>
-    </main>
+    </div>
   );
 }
 

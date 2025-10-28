@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "Human API",
   "version": "0.1.0",
-  "identifier": "com.prathamesh.tauri-app",
+  "identifier": "com.humanapi.memory",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,13 +12,29 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "title": "Human API - Personal Memory System",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "maximizable": true,
+        "minimizable": true,
+        "closable": true,
+        "center": true,
+        "decorations": true,
+        "alwaysOnTop": false,
+        "fullscreen": false,
+        "visible": true
       }
     ],
     "security": {
       "csp": null
+    },
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true,
+      "menuOnLeftClick": false
     }
   },
   "bundle": {
@@ -30,6 +46,16 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "category": "Productivity",
+    "shortDescription": "Local-first personal memory & reasoning system",
+    "longDescription": "Ask 'your memory' and get sourced, trustworthy answers — locally, with citations.",
+    "copyright": "© 2024 Human API. All rights reserved.",
+    "licenseFile": "../../LICENSE"
+  },
+  "plugins": {
+    "opener": {
+      "all": true
+    }
   }
 }
