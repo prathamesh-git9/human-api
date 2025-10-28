@@ -111,7 +111,17 @@ export async function verifyPassphrase(
             return false;
         }
 
-        return crypto.subtle.timingSafeEqual(derivedKeyArray, expectedKey);
+        // Fallback for environments without timingSafeEqual
+        if (typeof crypto.subtle.timingSafeEqual === 'function') {
+            return crypto.subtle.timingSafeEqual(derivedKeyArray, expectedKey);
+        } else {
+            // Manual timing-safe comparison
+            let result = 0;
+            for (let i = 0; i < derivedKeyArray.length; i++) {
+                result |= derivedKeyArray[i] ^ expectedKey[i];
+            }
+            return result === 0;
+        }
     } catch {
         return false;
     }

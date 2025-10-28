@@ -26,19 +26,19 @@ describe('Text chunker', () => {
     describe('sentence boundaries', () => {
         it('splits on periods', () => {
             const text = 'First sentence. Second sentence. Third sentence.';
-            const result = chunkText(text, 50, 10); // Small chunks to force splitting
+            const result = chunkText(text, 10, 3); // Very small chunks to force splitting
             expect(result.length).toBeGreaterThan(1);
         });
 
         it('splits on exclamation marks', () => {
             const text = 'First sentence! Second sentence!';
-            const result = chunkText(text, 50, 10);
+            const result = chunkText(text, 10, 3);
             expect(result.length).toBeGreaterThan(1);
         });
 
         it('splits on question marks', () => {
             const text = 'First sentence? Second sentence?';
-            const result = chunkText(text, 50, 10);
+            const result = chunkText(text, 10, 3);
             expect(result.length).toBeGreaterThan(1);
         });
     });
@@ -105,7 +105,7 @@ describe('Text chunker', () => {
 
         it('handles very long single sentence', () => {
             const text = 'This is a very long sentence that goes on and on without any punctuation marks and should be split into multiple chunks even though it has no natural sentence boundaries';
-            const result = chunkText(text, 50, 10);
+            const result = chunkText(text, 10, 3);
             expect(result.length).toBeGreaterThan(1);
             expect(validateChunks(result, text)).toBe(true);
         });
