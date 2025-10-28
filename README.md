@@ -24,11 +24,16 @@ Ask "your memory" and get sourced, trustworthy answers — locally, with citatio
 
 ```bash
 # Install dependencies
-cd apps/desktop
 npm install
 
 # Start development server
-npm run tauri dev
+npm run dev
+
+# Run tests
+npm test
+
+# Build for production
+npm run build
 ```
 
 ## 📁 Project Structure
@@ -44,7 +49,8 @@ human-api/
 │   ├── rag/              # RAG pipeline
 │   └── sql/              # Database schema
 ├── workers/              # Background workers
-└── docs/                 # Documentation
+├── docs/                 # Documentation
+└── .github/workflows/    # CI/CD pipelines
 ```
 
 ## 🔐 Security & Privacy
@@ -61,15 +67,34 @@ human-api/
 npm test
 
 # Run tests with coverage
-npm run test:coverage
+npm run test:cov
 
 # Run tests with UI
 npm run test:ui
+
+# Lint code
+npm run lint
+
+# Format code
+npm run format
+
+# Check formatting
+npm run format:check
 ```
+
+## 🚀 CI/CD
+
+This project uses GitHub Actions for continuous integration and deployment:
+
+- **Test Suite**: Runs on Node.js 18.x and 20.x
+- **Build**: Cross-platform builds for Windows, macOS, and Linux
+- **Security**: Automated security audits and vulnerability scanning
+- **Linting**: Code quality and formatting checks
+- **Release**: Automated releases on main branch pushes
 
 ## 📋 Milestones
 
-- **M1**: Vault, write path, embeddings, basic query, citations
+- **M1**: Vault, write path, embeddings, basic query, citations ✅
 - **M2**: Whisper queue, daily/weekly insights, MMR
 - **M3**: Compaction, chapter embeddings
 - **M4**: Installer, auto-update, performance, recovery
@@ -82,6 +107,21 @@ npm run test:ui
 - **LLM**: Ollama (Llama 3.1 8B)
 - **STT**: Whisper (CTranslate2)
 - **Testing**: Vitest + React Testing Library
+- **CI/CD**: GitHub Actions
+- **Code Quality**: ESLint + Prettier
+
+## 🛠️ Available Scripts
+
+- `npm test` - Run test suite
+- `npm run test:cov` - Run tests with coverage
+- `npm run test:ui` - Run tests with UI
+- `npm run lint` - Lint code
+- `npm run lint:fix` - Fix linting issues
+- `npm run format` - Format code
+- `npm run format:check` - Check code formatting
+- `npm run build` - Build all packages
+- `npm run dev` - Start development server
+- `npm run clean` - Clean build artifacts
 
 ## 📄 License
 
