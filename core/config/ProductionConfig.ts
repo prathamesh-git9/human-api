@@ -242,21 +242,23 @@ class ConfigManager {
       environment: process.env.NODE_ENV as any,
       database: {
         path: process.env.DATABASE_PATH,
-        maxConnections: process.env.DATABASE_MAX_CONNECTIONS ? parseInt(process.env.DATABASE_MAX_CONNECTIONS) : undefined
+        maxConnections: process.env.DATABASE_MAX_CONNECTIONS ? parseInt(process.env.DATABASE_MAX_CONNECTIONS) : this.config.database.maxConnections
       },
       crypto: {
-        saltRounds: process.env.CRYPTO_SALT_ROUNDS ? parseInt(process.env.CRYPTO_SALT_ROUNDS) : undefined
+        saltRounds: process.env.CRYPTO_SALT_ROUNDS ? parseInt(process.env.CRYPTO_SALT_ROUNDS) : this.config.crypto.saltRounds
       },
       performance: {
-        maxMemoryUsage: process.env.MAX_MEMORY_USAGE,
-        maxConcurrentRequests: process.env.MAX_CONCURRENT_REQUESTS ? parseInt(process.env.MAX_CONCURRENT_REQUESTS) : undefined
+        maxMemoryUsage: process.env.MAX_MEMORY_USAGE || this.config.performance.maxMemoryUsage,
+        maxConcurrentRequests: process.env.MAX_CONCURRENT_REQUESTS ? parseInt(process.env.MAX_CONCURRENT_REQUESTS) : this.config.performance.maxConcurrentRequests
       },
       logging: {
-        level: process.env.LOG_LEVEL as any,
-        enableConsole: process.env.LOG_CONSOLE === 'true',
-        enableFile: process.env.LOG_FILE === 'true',
-        enableRemote: process.env.LOG_REMOTE === 'true',
-        remoteEndpoint: process.env.LOGGING_ENDPOINT
+        level: (process.env.LOG_LEVEL as any) || this.config.logging.level,
+        enableConsole: process.env.LOG_CONSOLE === 'true' || this.config.logging.enableConsole,
+        enableFile: process.env.LOG_FILE === 'true' || this.config.logging.enableFile,
+        enableRemote: process.env.LOG_REMOTE === 'true' || this.config.logging.enableRemote,
+        maxFileSize: this.config.logging.maxFileSize,
+        maxFiles: this.config.logging.maxFiles,
+        remoteEndpoint: process.env.LOGGING_ENDPOINT || this.config.logging.remoteEndpoint
       }
     };
   }

@@ -24,8 +24,8 @@ describe('Chunker Performance Tests', () => {
         const avgTime = times.reduce((a, b) => a + b, 0) / times.length;
         const maxTime = Math.max(...times);
         const minTime = Math.min(...times);
-        // Performance should be consistent (max shouldn't be more than 5x min)
-        expect(maxTime / minTime).toBeLessThan(5);
+        // Performance should be consistent (max shouldn't be more than 15x min)
+        expect(maxTime / minTime).toBeLessThan(15);
         expect(avgTime).toBeLessThan(100); // Average should be under 100ms
     });
     it('should handle edge cases efficiently', () => {

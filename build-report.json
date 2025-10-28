@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-10-28T11:16:07.260Z",
+  "status": "FAILED",
+  "errors": [
+    "Core TypeScript build: Command failed: npm run build:core",
+    "Desktop app build: Command failed: cd apps/desktop && npm run build",
+    "Tauri production build: Command failed: cd apps/desktop && npm run tauri build"
+  ],
+  "warnings": [],
+  "buildSteps": [
+    "Prerequisites check",
+    "Clean build",
+    "Test suite",
+    "Core build",
+    "Desktop build",
+    "Tauri build",
+    "Production config"
+  ]
+}

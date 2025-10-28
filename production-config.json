@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "buildDate": "2025-10-28T11:16:07.258Z",
+  "environment": "production",
+  "features": {
+    "encryption": true,
+    "localStorage": true,
+    "vectorSearch": true,
+    "ragPipeline": true
+  },
+  "performance": {
+    "maxMemoryUsage": "512MB",
+    "maxConcurrentRequests": 100,
+    "cacheSize": "256MB"
+  },
+  "security": {
+    "encryptionAlgorithm": "AES-256-GCM",
+    "keyDerivation": "PBKDF2",
+    "saltRounds": 100000
+  }
+}
