@@ -110,7 +110,7 @@ export function chunkText(
     for (let i = 0; i < sentences.length; i++) {
         const sentence = sentences[i];
         const sentenceTokens = estimateTokens(sentence.text);
-        
+
         // If single sentence exceeds target, we need to split it
         if (sentenceTokens > config.targetTokens) {
             // Finalize current chunk if it has content
@@ -124,18 +124,18 @@ export function chunkText(
                     });
                 }
             }
-            
+
             // Split the long sentence by words
             const words = sentence.text.split(/\s+/);
             let wordStart = sentence.start;
             let wordEnd = sentence.start;
-            
+
             for (const word of words) {
                 const wordIndex = sentence.text.indexOf(word, wordEnd - sentence.start);
                 const newWordEnd = sentence.start + wordIndex + word.length;
                 const wordChunkText = input.slice(wordStart, newWordEnd);
                 const wordChunkTokens = estimateTokens(wordChunkText);
-                
+
                 if (wordChunkTokens > config.targetTokens && wordEnd > wordStart) {
                     // Create chunk from current word chunk
                     const chunkText = input.slice(wordStart, wordEnd).trim();
@@ -146,7 +146,7 @@ export function chunkText(
                             text: chunkText
                         });
                     }
-                    
+
                     // Start new word chunk
                     wordStart = sentence.start + wordIndex;
                     wordEnd = newWordEnd;
@@ -154,7 +154,7 @@ export function chunkText(
                     wordEnd = newWordEnd;
                 }
             }
-            
+
             // Add final word chunk if it has content
             if (wordEnd > wordStart) {
                 const chunkText = input.slice(wordStart, wordEnd).trim();
@@ -166,14 +166,14 @@ export function chunkText(
                     });
                 }
             }
-            
+
             // Reset for next sentence
             currentStart = 0;
             currentEnd = 0;
             currentTokens = 0;
             continue;
         }
-        
+
         const potentialEnd = sentence.end;
         const potentialChunkText = input.slice(currentStart, potentialEnd);
         const potentialTokens = estimateTokens(potentialChunkText);
@@ -220,13 +220,13 @@ export function chunkText(
         const words = input.trim().split(/\s+/);
         let wordStart = 0;
         let wordEnd = 0;
-        
+
         for (const word of words) {
             const wordIndex = input.indexOf(word, wordEnd);
             const newWordEnd = wordIndex + word.length;
             const wordChunkText = input.slice(wordStart, newWordEnd);
             const wordChunkTokens = estimateTokens(wordChunkText);
-            
+
             if (wordChunkTokens > config.targetTokens && wordEnd > wordStart) {
                 // Create chunk from current word chunk
                 const chunkText = input.slice(wordStart, wordEnd).trim();
@@ -237,7 +237,7 @@ export function chunkText(
                         text: chunkText
                     });
                 }
-                
+
                 // Start new word chunk
                 wordStart = wordIndex;
                 wordEnd = newWordEnd;
@@ -245,7 +245,7 @@ export function chunkText(
                 wordEnd = newWordEnd;
             }
         }
-        
+
         // Add final word chunk if it has content
         if (wordEnd > wordStart) {
             const chunkText = input.slice(wordStart, wordEnd).trim();
