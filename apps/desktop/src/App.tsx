@@ -37,10 +37,27 @@ function App() {
 
   const initializeApp = async () => {
     try {
-      const status = await invoke<VaultStatus>('get_vault_status');
-      setVaultStatus(status);
+      // Check if Tauri API is available
+      if (typeof globalThis.window !== 'undefined' && globalThis.window.__TAURI__) {
+        const status = await invoke<VaultStatus>('get_vault_status');
+        setVaultStatus(status);
+      } else {
+        // Fallback for development - simulate vault status
+        console.log('Tauri API not available, using mock data');
+        setVaultStatus({
+          is_initialized: false,
+          is_unlocked: false,
+          memory_count: 0
+        });
+      }
     } catch (error) {
       console.error('Failed to get vault status:', error);
+      // Fallback on error
+      setVaultStatus({
+        is_initialized: false,
+        is_unlocked: false,
+        memory_count: 0
+      });
     } finally {
       setIsLoading(false);
     }
@@ -85,7 +102,7 @@ function App() {
 }
 
 // Vault unlock component
-function VaultUnlock({ onVaultUnlocked }: { onVaultUnlocked: (status: VaultStatus) => void }) {
+function VaultUnlock({ onVaultUnlocked }: { readonly onVaultUnlocked: (status: VaultStatus) => void }) {
   const [password, setPassword] = useState('');
   const [isUnlocking, setIsUnlocking] = useState(false);
   const [error, setError] = useState('');
@@ -96,8 +113,22 @@ function VaultUnlock({ onVaultUnlocked }: { onVaultUnlocked: (status: VaultStatu
     setError('');
 
     try {
-      const status = await invoke<VaultStatus>('unlock_vault', { master_password: password });
-      onVaultUnlocked(status);
+      // Check if Tauri API is available
+      if (typeof globalThis.window !== 'undefined' && globalThis.window.__TAURI__) {
+        const status = await invoke<VaultStatus>('unlock_vault', { master_password: password });
+        onVaultUnlocked(status);
+      } else {
+        // Mock response for development
+        console.log('Tauri API not available, simulating vault unlock');
+        const mockStatus = {
+          is_initialized: true,
+          is_unlocked: true,
+          name: 'My Personal Vault',
+          memory_count: 0,
+          last_sync: new Date().toISOString()
+        };
+        onVaultUnlocked(mockStatus);
+      }
     } catch (err) {
       setError('Failed to unlock vault. Please check your password.');
       console.error('Vault unlock error:', err);

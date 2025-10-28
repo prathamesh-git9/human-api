@@ -46,11 +46,25 @@ const VaultSetup: React.FC<VaultSetupProps> = ({ onVaultCreated }) => {
         setError('');
 
         try {
-            const status = await invoke('create_vault', {
-                config: vaultConfig,
-                master_password: masterPassword,
-            });
-            onVaultCreated(status);
+            // Check if Tauri API is available
+            if (typeof globalThis.window !== 'undefined' && globalThis.window.__TAURI__) {
+                const status = await invoke('create_vault', {
+                    config: vaultConfig,
+                    master_password: masterPassword,
+                });
+                onVaultCreated(status);
+            } else {
+                // Mock response for development
+                console.log('Tauri API not available, simulating vault creation');
+                const mockStatus = {
+                    is_initialized: true,
+                    is_unlocked: true,
+                    name: vaultConfig.name,
+                    memory_count: 0,
+                    last_sync: new Date().toISOString()
+                };
+                onVaultCreated(mockStatus);
+            }
         } catch (err) {
             setError(err instanceof Error ? err.message : 'Failed to create vault');
         } finally {
