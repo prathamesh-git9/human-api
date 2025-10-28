@@ -9,16 +9,22 @@ pub struct Database {
 
 impl Database {
     pub async fn new() -> Result<Self> {
+        // Try to get data directory, fallback to current directory if not available
         let data_dir = data_dir()
-            .ok_or_else(|| anyhow::anyhow!("Could not find data directory"))?
-            .join("human-api");
+            .map(|dir| dir.join("human-api"))
+            .unwrap_or_else(|| std::env::current_dir().unwrap_or_else(|_| std::path::PathBuf::from(".")).join("data"));
         
-        std::fs::create_dir_all(&data_dir)?;
+        std::fs::create_dir_all(&data_dir)
+            .map_err(|e| anyhow::anyhow!("Failed to create data directory {}: {}", data_dir.display(), e))?;
         
         let db_path = data_dir.join("memories.db");
         let database_url = format!("sqlite://{}", db_path.display());
         
-        let pool = SqlitePool::connect(&database_url).await?;
+        println!("Initializing database at: {}", database_url);
+        
+        let pool = SqlitePool::connect(&database_url)
+            .await
+            .map_err(|e| anyhow::anyhow!("Failed to connect to database at {}: {}", database_url, e))?;
         
         let db = Database { pool };
         db.init_schema().await?;
