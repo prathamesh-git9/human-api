@@ -1,6 +1,6 @@
 use argon2::{Argon2, PasswordHash, PasswordHasher, PasswordVerifier};
 use argon2::password_hash::{rand_core::OsRng, SaltString, Error as Argon2Error};
-use aes_gcm::{Aes256Gcm, Key, Nonce, KeyInit};
+use aes_gcm::{Aes256Gcm, Key, KeyInit};
 use aes_gcm::aead::{Aead, generic_array::GenericArray};
 use anyhow::Result;
 use rand::Rng;
@@ -36,7 +36,7 @@ impl CryptoManager {
     }
 
     pub fn encrypt_data(&self, data: &[u8], key: &[u8; 32]) -> Result<Vec<u8>> {
-        let cipher = Aes256Gcm::new(Key::from_slice(key));
+        let cipher = Aes256Gcm::new(Key::<Aes256Gcm>::from_slice(key));
         let nonce = self.generate_nonce();
         let ciphertext = cipher.encrypt(&nonce, data)
             .map_err(|e| anyhow::anyhow!("Encryption error: {}", e))?;
@@ -54,7 +54,7 @@ impl CryptoManager {
 
         let (nonce_bytes, ciphertext) = encrypted_data.split_at(12);
         let nonce = GenericArray::from_slice(nonce_bytes);
-        let cipher = Aes256Gcm::new(Key::from_slice(key));
+        let cipher = Aes256Gcm::new(Key::<Aes256Gcm>::from_slice(key));
         
         let plaintext = cipher.decrypt(nonce, ciphertext)
             .map_err(|e| anyhow::anyhow!("Decryption error: {}", e))?;

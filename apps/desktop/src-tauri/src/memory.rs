@@ -4,6 +4,7 @@ use anyhow::Result;
 use uuid::Uuid;
 use chrono::Utc;
 use std::collections::HashMap;
+use sqlx::Row;
 
 pub struct MemoryManager {
     db: Option<Database>,
@@ -44,18 +45,18 @@ impl MemoryManager {
 
         // Add tags
         for tag_name in &entry.tags {
-            let tag_id = self.ensure_tag(&pool, tag_name).await?;
+            let tag_id = Self::ensure_tag_static(&pool, tag_name).await?;
             sqlx::query(
                 "INSERT OR IGNORE INTO memory_tags (memory_id, tag_id) VALUES (?, ?)"
             )
             .bind(&memory_id)
             .bind(&tag_id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
         }
 
         // Create chunks (simplified - in real implementation, use the chunker from core)
-        let chunks = self.create_chunks(&entry.content)?;
+        let chunks = Self::create_chunks_static(&entry.content)?;
         for (i, chunk) in chunks.iter().enumerate() {
             let chunk_id = Uuid::new_v4().to_string();
             sqlx::query(
@@ -64,17 +65,17 @@ impl MemoryManager {
             .bind(&chunk_id)
             .bind(&memory_id)
             .bind(chunk)
-            .bind(i * 100) // Simplified position calculation
-            .bind((i + 1) * 100)
+            .bind((i * 100) as i32) // Simplified position calculation
+            .bind(((i + 1) * 100) as i32)
             .bind(now)
-            .execute(&pool)
+            .execute(pool)
             .await?;
         }
 
         Ok(memory_id)
     }
 
-    async fn ensure_tag(&self, pool: &sqlx::SqlitePool, tag_name: &str) -> Result<String> {
+    async fn ensure_tag_static(pool: &sqlx::SqlitePool, tag_name: &str) -> Result<String> {
         // Check if tag exists
         let existing = sqlx::query("SELECT id FROM tags WHERE name = ?")
             .bind(tag_name)
@@ -90,13 +91,13 @@ impl MemoryManager {
                 .bind(&tag_id)
                 .bind(tag_name)
                 .bind(Utc::now())
-                .execute(&pool)
+                .execute(pool)
                 .await?;
             Ok(tag_id)
         }
     }
 
-    fn create_chunks(&self, content: &str) -> Result<Vec<String>> {
+    fn create_chunks_static(content: &str) -> Result<Vec<String>> {
         // Simplified chunking - in real implementation, use the core chunker
         let words: Vec<&str> = content.split_whitespace().collect();
         let chunk_size = 50; // words per chunk
@@ -127,7 +128,7 @@ impl MemoryManager {
         .bind(&format!("%{}%", request.query))
         .bind(&format!("%{}%", request.query))
         .bind(limit as i64)
-        .fetch_all(&pool)
+        .fetch_all(pool)
         .await?;
 
         let mut citations = Vec::new();
@@ -200,7 +201,7 @@ impl MemoryManager {
 
             for row in rows {
                 let memory_id: String = row.get("id");
-                let tags = self.get_memory_tags(pool, &memory_id).await?;
+                let tags = Self::get_memory_tags_static(pool, &memory_id).await?;
                 
                 memories.push(MemoryEntry {
                     id: Some(memory_id),
@@ -223,12 +224,12 @@ impl MemoryManager {
             )
             .bind(&format!("%{}%", query))
             .bind(limit)
-            .fetch_all(&pool)
+            .fetch_all(pool)
             .await?;
 
             for row in rows {
                 let memory_id: String = row.get("id");
-                let tags = self.get_memory_tags(pool, &memory_id).await?;
+                let tags = Self::get_memory_tags_static(pool, &memory_id).await?;
                 
                 memories.push(MemoryEntry {
                     id: Some(memory_id),
@@ -245,14 +246,14 @@ impl MemoryManager {
         Ok(memories)
     }
 
-    async fn get_memory_tags(&self, pool: &sqlx::SqlitePool, memory_id: &str) -> Result<Vec<String>> {
+    async fn get_memory_tags_static(pool: &sqlx::SqlitePool, memory_id: &str) -> Result<Vec<String>> {
         let rows = sqlx::query(
             "SELECT t.name FROM tags t
              JOIN memory_tags mt ON t.id = mt.tag_id
              WHERE mt.memory_id = ?"
         )
         .bind(memory_id)
-        .fetch_all(&pool)
+        .fetch_all(pool)
         .await?;
 
         Ok(rows.into_iter().map(|row| row.get("name")).collect())
@@ -296,29 +297,29 @@ impl MemoryManager {
         // Delete associated chunks and citations first
         sqlx::query("DELETE FROM citations WHERE memory_id = ?")
             .bind(&id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
 
         sqlx::query("DELETE FROM chunks WHERE memory_id = ?")
             .bind(&id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
 
         sqlx::query("DELETE FROM memory_tags WHERE memory_id = ?")
             .bind(&id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
 
         // Delete memory
         sqlx::query("DELETE FROM memories WHERE id = ?")
             .bind(&id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
 
         Ok(())
     }
 
-    pub async fn update_memory(&mut self, id: String, mut entry: MemoryEntry) -> Result<()> {
+    pub async fn update_memory(&mut self, id: String, entry: MemoryEntry) -> Result<()> {
         let db = self.get_db().await?;
         let pool = db.get_pool().await;
         let now = Utc::now();
@@ -338,15 +339,15 @@ impl MemoryManager {
         // Update tags
         sqlx::query("DELETE FROM memory_tags WHERE memory_id = ?")
             .bind(&id)
-            .execute(&pool)
+            .execute(pool)
             .await?;
 
         for tag_name in &entry.tags {
-            let tag_id = self.ensure_tag(&pool, tag_name).await?;
+            let tag_id = Self::ensure_tag_static(&pool, tag_name).await?;
             sqlx::query("INSERT INTO memory_tags (memory_id, tag_id) VALUES (?, ?)")
                 .bind(&id)
                 .bind(&tag_id)
-                .execute(&pool)
+                .execute(pool)
                 .await?;
         }
 
@@ -366,7 +367,7 @@ impl MemoryManager {
              ORDER BY c.relevance_score DESC"
         )
         .bind(&memory_id)
-        .fetch_all(&pool)
+        .fetch_all(pool)
         .await?;
 
         let mut citations = Vec::new();

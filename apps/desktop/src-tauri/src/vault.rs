@@ -5,8 +5,9 @@ use anyhow::Result;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use uuid::Uuid;
+use sqlx::Row;
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct VaultData {
     pub id: String,
     pub name: String,
@@ -36,7 +37,7 @@ impl VaultManager {
     pub async fn create_vault(&mut self, config: VaultConfig, master_password: String) -> Result<VaultStatus> {
         // Initialize database
         let db = Database::new().await?;
-        let pool = db.get_pool().clone();
+        let pool = db.get_pool().await;
 
         // Create vault record
         let vault_id = Uuid::new_v4().to_string();
@@ -51,7 +52,7 @@ impl VaultManager {
         .bind(config.encryption_enabled)
         .bind(now)
         .bind(now)
-        .execute(&pool)
+        .execute(pool)
         .await?;
 
         // Hash master password
@@ -64,7 +65,7 @@ impl VaultManager {
         // Store vault metadata
         let vault_data = VaultData {
             id: vault_id,
-            name: config.name,
+            name: config.name.clone(),
             description: config.description,
             encryption_enabled: config.encryption_enabled,
             created_at: now,
@@ -89,11 +90,11 @@ impl VaultManager {
         // and decrypt the vault key
         
         let db = Database::new().await?;
-        let pool = db.get_pool().clone();
+        let pool = db.get_pool().await;
 
         // Get vault data
         let row = sqlx::query("SELECT id, name, description, encryption_enabled, created_at, updated_at FROM vaults ORDER BY created_at DESC LIMIT 1")
-            .fetch_optional(&pool)
+            .fetch_optional(pool)
             .await?;
 
         if let Some(row) = row {
@@ -109,7 +110,7 @@ impl VaultManager {
             // Count memories
             let memory_count: i64 = sqlx::query("SELECT COUNT(*) FROM memories WHERE vault_id = ?")
                 .bind(&vault_data.id)
-                .fetch_one(&pool)
+                .fetch_one(pool)
                 .await?
                 .get(0);
 
@@ -138,7 +139,7 @@ impl VaultManager {
     pub async fn get_status(&self) -> Result<VaultStatus> {
         if let Some(vault) = &self.current_vault {
             let memory_count = if let Some(db) = &self.db {
-                let pool = db.get_pool();
+                let pool = db.get_pool().await;
                 let count: i64 = sqlx::query("SELECT COUNT(*) FROM memories WHERE vault_id = ?")
                     .bind(&vault.id)
                     .fetch_one(pool)
@@ -170,7 +171,7 @@ impl VaultManager {
     pub async fn update_settings(&mut self, name: Option<String>, description: Option<String>) -> Result<()> {
         if let Some(vault) = &mut self.current_vault {
             if let Some(db) = &self.db {
-                let pool = db.get_pool();
+                let pool = db.get_pool().await;
                 let now = chrono::Utc::now();
 
                 sqlx::query(

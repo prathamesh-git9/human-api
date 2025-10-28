@@ -85,7 +85,7 @@ pub async fn create_vault(
     config: VaultConfig,
     master_password: String,
 ) -> Result<VaultStatus, String> {
-    let vault_manager = VaultManager::new();
+    let mut vault_manager = VaultManager::new();
     vault_manager
         .create_vault(config, master_password)
         .await
@@ -94,7 +94,7 @@ pub async fn create_vault(
 
 #[tauri::command]
 pub async fn unlock_vault(master_password: String) -> Result<VaultStatus, String> {
-    let vault_manager = VaultManager::new();
+    let mut vault_manager = VaultManager::new();
     vault_manager
         .unlock_vault(master_password)
         .await
@@ -103,7 +103,7 @@ pub async fn unlock_vault(master_password: String) -> Result<VaultStatus, String
 
 #[tauri::command]
 pub async fn get_vault_status() -> Result<VaultStatus, String> {
-    let vault_manager = VaultManager::new();
+    let mut vault_manager = VaultManager::new();
     vault_manager
         .get_status()
         .await
@@ -115,7 +115,7 @@ pub async fn update_vault_settings(
     name: Option<String>,
     description: Option<String>,
 ) -> Result<(), String> {
-    let vault_manager = VaultManager::new();
+    let mut vault_manager = VaultManager::new();
     vault_manager
         .update_settings(name, description)
         .await
@@ -125,7 +125,7 @@ pub async fn update_vault_settings(
 // Memory management commands
 #[tauri::command]
 pub async fn add_memory(entry: MemoryEntry) -> Result<String, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .add_memory(entry)
         .await
@@ -134,7 +134,7 @@ pub async fn add_memory(entry: MemoryEntry) -> Result<String, String> {
 
 #[tauri::command]
 pub async fn query_memory(request: QueryRequest) -> Result<QueryResult, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .query_memory(request)
         .await
@@ -147,7 +147,7 @@ pub async fn search_memories(
     limit: Option<usize>,
     tags: Option<Vec<String>>,
 ) -> Result<Vec<MemoryEntry>, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .search_memories(query, limit, tags)
         .await
@@ -156,7 +156,7 @@ pub async fn search_memories(
 
 #[tauri::command]
 pub async fn get_memory_stats() -> Result<MemoryStats, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .get_stats()
         .await
@@ -165,7 +165,7 @@ pub async fn get_memory_stats() -> Result<MemoryStats, String> {
 
 #[tauri::command]
 pub async fn delete_memory(id: String) -> Result<(), String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .delete_memory(id)
         .await
@@ -174,7 +174,7 @@ pub async fn delete_memory(id: String) -> Result<(), String> {
 
 #[tauri::command]
 pub async fn update_memory(id: String, entry: MemoryEntry) -> Result<(), String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .update_memory(id, entry)
         .await
@@ -183,7 +183,7 @@ pub async fn update_memory(id: String, entry: MemoryEntry) -> Result<(), String>
 
 #[tauri::command]
 pub async fn get_citations(memory_id: String) -> Result<Vec<Citation>, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .get_citations(memory_id)
         .await
@@ -195,7 +195,7 @@ pub async fn get_citations(memory_id: String) -> Result<Vec<Citation>, String> {
 pub async fn get_insights(
     period: String, // "daily", "weekly", "monthly"
 ) -> Result<serde_json::Value, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .get_insights(period)
         .await
@@ -205,7 +205,7 @@ pub async fn get_insights(
 // Data management
 #[tauri::command]
 pub async fn export_data(format: String) -> Result<String, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .export_data(format)
         .await
@@ -214,7 +214,7 @@ pub async fn export_data(format: String) -> Result<String, String> {
 
 #[tauri::command]
 pub async fn import_data(data: String, format: String) -> Result<(), String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .import_data(data, format)
         .await
@@ -224,7 +224,7 @@ pub async fn import_data(data: String, format: String) -> Result<(), String> {
 // System operations
 #[tauri::command]
 pub async fn sync_embeddings() -> Result<(), String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .sync_embeddings()
         .await
@@ -233,7 +233,7 @@ pub async fn sync_embeddings() -> Result<(), String> {
 
 #[tauri::command]
 pub async fn get_system_info() -> Result<SystemInfo, String> {
-    let memory_manager = MemoryManager::new();
+    let mut memory_manager = MemoryManager::new();
     memory_manager
         .get_system_info()
         .await
