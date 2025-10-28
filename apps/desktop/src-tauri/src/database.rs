@@ -9,10 +9,10 @@ pub struct Database {
 
 impl Database {
     pub async fn new() -> Result<Self> {
-        // Try to get data directory, fallback to current directory if not available
-        let data_dir = data_dir()
-            .map(|dir| dir.join("human-api"))
-            .unwrap_or_else(|| std::env::current_dir().unwrap_or_else(|_| std::path::PathBuf::from(".")).join("data"));
+        // Use a more accessible database location
+        let data_dir = std::env::current_dir()
+            .unwrap_or_else(|_| std::path::PathBuf::from("."))
+            .join("data");
         
         std::fs::create_dir_all(&data_dir)
             .map_err(|e| anyhow::anyhow!("Failed to create data directory {}: {}", data_dir.display(), e))?;

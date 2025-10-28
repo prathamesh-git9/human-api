@@ -48,9 +48,5 @@
     "copyright": "© 2024 Human API. All rights reserved.",
     "licenseFile": "../../LICENSE"
   },
-  "plugins": {
-    "opener": {
-      "requireLiteralLeadingDot": false
-    }
-  }
+  "plugins": {}
 }

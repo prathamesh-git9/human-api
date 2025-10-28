@@ -8,7 +8,6 @@ mod vault;
 mod memory;
 
 use tauri::Manager;
-use tauri_plugin_opener::OpenerExt;
 use tauri_plugin_fs::FsExt;
 use tauri_plugin_dialog::DialogExt;
 use tauri_plugin_notification::NotificationExt;
@@ -18,7 +17,6 @@ use tauri_plugin_shell::ShellExt;
 async fn main() {
 
     tauri::Builder::default()
-        .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_notification::init())
