@@ -86,3 +86,4 @@ npm run test:ui
 ## 📄 License
 
 MIT License - see LICENSE file for details.
+

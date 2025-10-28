@@ -12,7 +12,7 @@ const { wrappedDEK, nonce: wrapNonce } = await wrapDEK(kekKey, dek);
 const unwrapped = await unwrapDEK(kekKey, wrappedDEK, wrapNonce);
 
 if (Buffer.compare(Buffer.from(dek), Buffer.from(unwrapped)) !== 0) {
-  throw new Error('DEK unwrap mismatch');
+    throw new Error('DEK unwrap mismatch');
 }
 
 const msg = 'hello ' + randomBytes(4).toString('hex');

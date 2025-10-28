@@ -139,3 +139,4 @@ export function mmrWithConfig(
 ): string[] {
     return mmr(items, queryVec, config.lambda, config.k);
 }
+

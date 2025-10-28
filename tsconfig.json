@@ -1,14 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "types": ["vitest/globals", "node"],
-    "baseUrl": "."
-  },
-  "include": ["**/*.ts", "**/*.tsx"]
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "Bundler",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "types": [
+            "vitest/globals",
+            "node"
+        ],
+        "baseUrl": "."
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ]
 }
+
