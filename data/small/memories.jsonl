@@ -1,0 +1,16 @@
+{"id":"m-001","title":"Buy groceries","content":"Buy milk, eggs, and bread from the supermarket after work.","tags":["tasks","personal"],"source":"manual","created_at":"2025-01-10T10:00:00.000Z"}
+{"id":"m-002","title":"Project kickoff","content":"Project Alpha kickoff meeting scheduled for Monday 9am with the core team.","tags":["work","meetings"],"source":"calendar","created_at":"2025-01-11T09:00:00.000Z"}
+{"id":"m-003","title":"Doctor appointment","content":"Annual physical appointment on Friday 3pm at Midtown Clinic.","tags":["health","personal"],"source":"calendar","created_at":"2025-01-12T15:00:00.000Z"}
+{"id":"m-004","title":"TypeScript tip","content":"Use unknown instead of any to enforce type narrowing in TypeScript.","tags":["dev","typescript"],"source":"notes","created_at":"2025-01-13T08:00:00.000Z"}
+{"id":"m-005","title":"SQL optimization","content":"Index the columns used in WHERE and JOIN clauses to speed up queries.","tags":["dev","database"],"source":"notes","created_at":"2025-01-13T12:00:00.000Z"}
+{"id":"m-006","title":"AES-GCM","content":"AES-256-GCM provides confidentiality and authenticity with a 12-byte nonce.","tags":["crypto"],"source":"docs","created_at":"2025-01-14T10:30:00.000Z"}
+{"id":"m-007","title":"PBKDF2 params","content":"PBKDF2 with 310k iterations and SHA-256 is acceptable for cross-platform KDF.","tags":["crypto"],"source":"docs","created_at":"2025-01-14T11:00:00.000Z"}
+{"id":"m-008","title":"Vacation idea","content":"Consider visiting Kyoto in spring for cherry blossoms and temples.","tags":["travel","personal"],"source":"manual","created_at":"2025-01-15T18:00:00.000Z"}
+{"id":"m-009","title":"Workout plan","content":"Alternate push and pull days; aim for 3 sessions per week.","tags":["health","fitness"],"source":"manual","created_at":"2025-01-16T07:30:00.000Z"}
+{"id":"m-010","title":"Keyboard shortcuts","content":"In VS Code, use Ctrl+Shift+P to open the command palette.","tags":["dev","productivity"],"source":"notes","created_at":"2025-01-16T09:15:00.000Z"}
+{"id":"m-011","title":"React state","content":"Lift state up to the closest common ancestor component to share data.","tags":["dev","react"],"source":"notes","created_at":"2025-01-17T13:00:00.000Z"}
+{"id":"m-012","title":"Chunking strategy","content":"Use sentence-aware chunking with small overlaps to preserve context.","tags":["rag","nlp"],"source":"docs","created_at":"2025-01-18T10:00:00.000Z"}
+{"id":"m-013","title":"Token estimation","content":"Estimate tokens with a heuristic: ~4 chars per token for English.","tags":["rag","nlp"],"source":"docs","created_at":"2025-01-18T10:30:00.000Z"}
+{"id":"m-014","title":"SQLite backup","content":"Use VACUUM INTO to export a compact copy of the SQLite database.","tags":["database"],"source":"docs","created_at":"2025-01-19T14:00:00.000Z"}
+{"id":"m-015","title":"Daily reflection","content":"Write three bullet points about what went well today.","tags":["journal","personal"],"source":"manual","created_at":"2025-01-20T21:00:00.000Z"}
+
