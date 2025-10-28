@@ -1,7 +1,7 @@
 use argon2::{Argon2, PasswordHash, PasswordHasher, PasswordVerifier};
-use argon2::password_hash::{rand_core::OsRng, SaltString};
-use aes_gcm::{Aes256Gcm, Key, Nonce};
-use aes_gcm::aead::{Aead, NewAead, generic_array::GenericArray};
+use argon2::password_hash::{rand_core::OsRng, SaltString, Error as Argon2Error};
+use aes_gcm::{Aes256Gcm, Key, Nonce, KeyInit};
+use aes_gcm::aead::{Aead, generic_array::GenericArray};
 use anyhow::Result;
 use rand::Rng;
 
@@ -18,12 +18,14 @@ impl CryptoManager {
 
     pub fn hash_password(&self, password: &str) -> Result<String> {
         let salt = SaltString::generate(&mut OsRng);
-        let password_hash = self.argon2.hash_password(password.as_bytes(), &salt)?;
+        let password_hash = self.argon2.hash_password(password.as_bytes(), &salt)
+            .map_err(|e| anyhow::anyhow!("Argon2 error: {}", e))?;
         Ok(password_hash.to_string())
     }
 
     pub fn verify_password(&self, password: &str, hash: &str) -> Result<bool> {
-        let parsed_hash = PasswordHash::new(hash)?;
+        let parsed_hash = PasswordHash::new(hash)
+            .map_err(|e| anyhow::anyhow!("PasswordHash error: {}", e))?;
         Ok(self.argon2.verify_password(password.as_bytes(), &parsed_hash).is_ok())
     }
 
@@ -36,7 +38,8 @@ impl CryptoManager {
     pub fn encrypt_data(&self, data: &[u8], key: &[u8; 32]) -> Result<Vec<u8>> {
         let cipher = Aes256Gcm::new(Key::from_slice(key));
         let nonce = self.generate_nonce();
-        let ciphertext = cipher.encrypt(&nonce, data)?;
+        let ciphertext = cipher.encrypt(&nonce, data)
+            .map_err(|e| anyhow::anyhow!("Encryption error: {}", e))?;
         
         // Prepend nonce to ciphertext
         let mut result = nonce.to_vec();
@@ -53,7 +56,8 @@ impl CryptoManager {
         let nonce = GenericArray::from_slice(nonce_bytes);
         let cipher = Aes256Gcm::new(Key::from_slice(key));
         
-        let plaintext = cipher.decrypt(nonce, ciphertext)?;
+        let plaintext = cipher.decrypt(nonce, ciphertext)
+            .map_err(|e| anyhow::anyhow!("Decryption error: {}", e))?;
         Ok(plaintext)
     }
 

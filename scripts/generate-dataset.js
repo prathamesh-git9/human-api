@@ -1,21 +1,12 @@
-#!/usr/bin/env ts-node
-import fs from 'node:fs';
-import path from 'node:path';
+#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
 
-type Memory = {
-    id: string;
-    title?: string;
-    content: string;
-    tags: string[];
-    source?: string;
-    created_at: string;
-};
-
-function randomChoice<T>(arr: T[]): T {
+function randomChoice(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function generateMemory(i: number): Memory {
+function generateMemory(i) {
     const topics = [
         { tag: 'dev', texts: ['Refactor module boundaries', 'Prefer composition over inheritance', 'Add unit tests for edge cases'] },
         { tag: 'health', texts: ['Drink 2L of water', '10k steps goal', 'High-protein breakfast idea'] },
@@ -38,7 +29,7 @@ function generateMemory(i: number): Memory {
     };
 }
 
-function ensureDir(dir: string) {
+function ensureDir(dir) {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
@@ -54,10 +45,7 @@ function main() {
         fs.writeSync(fd, JSON.stringify(mem) + '\n');
     }
     fs.closeSync(fd);
-    // eslint-disable-next-line no-console
     console.log(`Wrote ${count} synthetic memories to ${outPath}`);
 }
 
 main();
-
-

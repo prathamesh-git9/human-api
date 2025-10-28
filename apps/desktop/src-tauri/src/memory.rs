@@ -23,7 +23,7 @@ impl MemoryManager {
 
     pub async fn add_memory(&mut self, mut entry: MemoryEntry) -> Result<String> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
         
         let memory_id = entry.id.unwrap_or_else(|| Uuid::new_v4().to_string());
         let now = Utc::now();
@@ -44,13 +44,13 @@ impl MemoryManager {
 
         // Add tags
         for tag_name in &entry.tags {
-            let tag_id = self.ensure_tag(pool, tag_name).await?;
+            let tag_id = self.ensure_tag(&pool, tag_name).await?;
             sqlx::query(
                 "INSERT OR IGNORE INTO memory_tags (memory_id, tag_id) VALUES (?, ?)"
             )
             .bind(&memory_id)
             .bind(&tag_id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
         }
 
@@ -67,7 +67,7 @@ impl MemoryManager {
             .bind(i * 100) // Simplified position calculation
             .bind((i + 1) * 100)
             .bind(now)
-            .execute(pool)
+            .execute(&pool)
             .await?;
         }
 
@@ -90,7 +90,7 @@ impl MemoryManager {
                 .bind(&tag_id)
                 .bind(tag_name)
                 .bind(Utc::now())
-                .execute(pool)
+                .execute(&pool)
                 .await?;
             Ok(tag_id)
         }
@@ -111,7 +111,7 @@ impl MemoryManager {
 
     pub async fn query_memory(&mut self, request: QueryRequest) -> Result<QueryResult> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
         
         // Simplified query - in real implementation, use vector search
         let limit = request.limit.unwrap_or(10);
@@ -127,7 +127,7 @@ impl MemoryManager {
         .bind(&format!("%{}%", request.query))
         .bind(&format!("%{}%", request.query))
         .bind(limit as i64)
-        .fetch_all(pool)
+        .fetch_all(&pool)
         .await?;
 
         let mut citations = Vec::new();
@@ -171,7 +171,7 @@ impl MemoryManager {
         tags: Option<Vec<String>>,
     ) -> Result<Vec<MemoryEntry>> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
         let limit = limit.unwrap_or(20) as i64;
 
         let mut memories = Vec::new();
@@ -223,7 +223,7 @@ impl MemoryManager {
             )
             .bind(&format!("%{}%", query))
             .bind(limit)
-            .fetch_all(pool)
+            .fetch_all(&pool)
             .await?;
 
             for row in rows {
@@ -252,7 +252,7 @@ impl MemoryManager {
              WHERE mt.memory_id = ?"
         )
         .bind(memory_id)
-        .fetch_all(pool)
+        .fetch_all(&pool)
         .await?;
 
         Ok(rows.into_iter().map(|row| row.get("name")).collect())
@@ -260,7 +260,7 @@ impl MemoryManager {
 
     pub async fn get_stats(&mut self) -> Result<MemoryStats> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
 
         let memory_count: i64 = sqlx::query("SELECT COUNT(*) FROM memories")
             .fetch_one(pool)
@@ -291,28 +291,28 @@ impl MemoryManager {
 
     pub async fn delete_memory(&mut self, id: String) -> Result<()> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
 
         // Delete associated chunks and citations first
         sqlx::query("DELETE FROM citations WHERE memory_id = ?")
             .bind(&id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
 
         sqlx::query("DELETE FROM chunks WHERE memory_id = ?")
             .bind(&id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
 
         sqlx::query("DELETE FROM memory_tags WHERE memory_id = ?")
             .bind(&id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
 
         // Delete memory
         sqlx::query("DELETE FROM memories WHERE id = ?")
             .bind(&id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
 
         Ok(())
@@ -320,7 +320,7 @@ impl MemoryManager {
 
     pub async fn update_memory(&mut self, id: String, mut entry: MemoryEntry) -> Result<()> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
         let now = Utc::now();
 
         // Update memory
@@ -338,15 +338,15 @@ impl MemoryManager {
         // Update tags
         sqlx::query("DELETE FROM memory_tags WHERE memory_id = ?")
             .bind(&id)
-            .execute(pool)
+            .execute(&pool)
             .await?;
 
         for tag_name in &entry.tags {
-            let tag_id = self.ensure_tag(pool, tag_name).await?;
+            let tag_id = self.ensure_tag(&pool, tag_name).await?;
             sqlx::query("INSERT INTO memory_tags (memory_id, tag_id) VALUES (?, ?)")
                 .bind(&id)
                 .bind(&tag_id)
-                .execute(pool)
+                .execute(&pool)
                 .await?;
         }
 
@@ -355,7 +355,7 @@ impl MemoryManager {
 
     pub async fn get_citations(&mut self, memory_id: String) -> Result<Vec<Citation>> {
         let db = self.get_db().await?;
-        let pool = db.get_pool();
+        let pool = db.get_pool().await;
 
         let rows = sqlx::query(
             "SELECT c.id, m.title, c.content, c.relevance_score, m.source
@@ -366,7 +366,7 @@ impl MemoryManager {
              ORDER BY c.relevance_score DESC"
         )
         .bind(&memory_id)
-        .fetch_all(pool)
+        .fetch_all(&pool)
         .await?;
 
         let mut citations = Vec::new();
@@ -408,7 +408,7 @@ impl MemoryManager {
         Ok(export_data.to_string())
     }
 
-    pub async fn import_data(&mut self, data: String, format: String) -> Result<()> {
+    pub async fn import_data(&mut self, data: String, _format: String) -> Result<()> {
         // Simplified import - in real implementation, parse and import data
         let _parsed: serde_json::Value = serde_json::from_str(&data)?;
         Ok(())

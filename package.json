@@ -15,7 +15,7 @@
     "build:desktop": "cd apps/desktop && npm run build",
     "dev": "npm run dev:desktop",
     "data:small": "node -e \"require('fs').createReadStream('data/small/memories.jsonl').on('data',()=>{}); console.log('small dataset present')\"",
-    "data:gen": "ts-node scripts/generate-dataset.ts 200",
+    "data:gen": "node scripts/generate-dataset.cjs 200",
     "dev:desktop": "cd apps/desktop && npm run tauri dev",
     "clean": "npm run clean:core && npm run clean:desktop",
     "clean:core": "rm -rf dist",

@@ -1,0 +1,1000 @@
+{"id":"synth-00001","title":"DEV note #1","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.950Z"}
+{"id":"synth-00002","title":"DEV note #2","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.951Z"}
+{"id":"synth-00003","title":"DEV note #3","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.951Z"}
+{"id":"synth-00004","title":"WORK note #4","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.951Z"}
+{"id":"synth-00005","title":"CRYPTO note #5","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.951Z"}
+{"id":"synth-00006","title":"DEV note #6","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.952Z"}
+{"id":"synth-00007","title":"HEALTH note #7","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.952Z"}
+{"id":"synth-00008","title":"HEALTH note #8","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.952Z"}
+{"id":"synth-00009","title":"CRYPTO note #9","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.952Z"}
+{"id":"synth-00010","title":"HEALTH note #10","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.952Z"}
+{"id":"synth-00011","title":"DEV note #11","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.952Z"}
+{"id":"synth-00012","title":"HEALTH note #12","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.952Z"}
+{"id":"synth-00013","title":"CRYPTO note #13","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.952Z"}
+{"id":"synth-00014","title":"RAG note #14","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.952Z"}
+{"id":"synth-00015","title":"WORK note #15","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.952Z"}
+{"id":"synth-00016","title":"CRYPTO note #16","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.952Z"}
+{"id":"synth-00017","title":"RAG note #17","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.952Z"}
+{"id":"synth-00018","title":"CRYPTO note #18","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.952Z"}
+{"id":"synth-00019","title":"DEV note #19","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.952Z"}
+{"id":"synth-00020","title":"WORK note #20","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.952Z"}
+{"id":"synth-00021","title":"DEV note #21","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.952Z"}
+{"id":"synth-00022","title":"HEALTH note #22","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.952Z"}
+{"id":"synth-00023","title":"WORK note #23","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.952Z"}
+{"id":"synth-00024","title":"DEV note #24","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.952Z"}
+{"id":"synth-00025","title":"HEALTH note #25","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.952Z"}
+{"id":"synth-00026","title":"HEALTH note #26","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.952Z"}
+{"id":"synth-00027","title":"CRYPTO note #27","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.952Z"}
+{"id":"synth-00028","title":"RAG note #28","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.952Z"}
+{"id":"synth-00029","title":"CRYPTO note #29","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.952Z"}
+{"id":"synth-00030","title":"CRYPTO note #30","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.952Z"}
+{"id":"synth-00031","title":"WORK note #31","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.952Z"}
+{"id":"synth-00032","title":"CRYPTO note #32","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.952Z"}
+{"id":"synth-00033","title":"RAG note #33","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.952Z"}
+{"id":"synth-00034","title":"HEALTH note #34","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00035","title":"WORK note #35","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00036","title":"RAG note #36","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00037","title":"RAG note #37","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.953Z"}
+{"id":"synth-00038","title":"RAG note #38","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00039","title":"CRYPTO note #39","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.953Z"}
+{"id":"synth-00040","title":"DEV note #40","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00041","title":"CRYPTO note #41","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00042","title":"RAG note #42","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.953Z"}
+{"id":"synth-00043","title":"CRYPTO note #43","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.953Z"}
+{"id":"synth-00044","title":"CRYPTO note #44","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00045","title":"WORK note #45","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00046","title":"CRYPTO note #46","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00047","title":"DEV note #47","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00048","title":"WORK note #48","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.953Z"}
+{"id":"synth-00049","title":"WORK note #49","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00050","title":"DEV note #50","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.953Z"}
+{"id":"synth-00051","title":"CRYPTO note #51","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00052","title":"DEV note #52","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00053","title":"RAG note #53","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00054","title":"DEV note #54","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00055","title":"HEALTH note #55","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.953Z"}
+{"id":"synth-00056","title":"HEALTH note #56","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00057","title":"RAG note #57","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00058","title":"DEV note #58","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00059","title":"DEV note #59","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00060","title":"HEALTH note #60","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.953Z"}
+{"id":"synth-00061","title":"RAG note #61","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00062","title":"CRYPTO note #62","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.953Z"}
+{"id":"synth-00063","title":"DEV note #63","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00064","title":"CRYPTO note #64","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00065","title":"WORK note #65","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00066","title":"WORK note #66","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00067","title":"HEALTH note #67","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00068","title":"WORK note #68","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00069","title":"RAG note #69","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00070","title":"DEV note #70","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00071","title":"CRYPTO note #71","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00072","title":"DEV note #72","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00073","title":"RAG note #73","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00074","title":"DEV note #74","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00075","title":"CRYPTO note #75","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00076","title":"HEALTH note #76","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00077","title":"HEALTH note #77","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00078","title":"RAG note #78","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00079","title":"RAG note #79","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00080","title":"WORK note #80","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00081","title":"RAG note #81","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00082","title":"CRYPTO note #82","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00083","title":"CRYPTO note #83","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00084","title":"DEV note #84","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00085","title":"HEALTH note #85","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00086","title":"CRYPTO note #86","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00087","title":"CRYPTO note #87","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00088","title":"WORK note #88","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00089","title":"CRYPTO note #89","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.953Z"}
+{"id":"synth-00090","title":"RAG note #90","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00091","title":"CRYPTO note #91","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00092","title":"RAG note #92","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00093","title":"WORK note #93","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00094","title":"WORK note #94","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00095","title":"WORK note #95","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00096","title":"HEALTH note #96","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.953Z"}
+{"id":"synth-00097","title":"CRYPTO note #97","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00098","title":"CRYPTO note #98","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00099","title":"RAG note #99","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00100","title":"RAG note #100","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00101","title":"WORK note #101","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00102","title":"CRYPTO note #102","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00103","title":"WORK note #103","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00104","title":"DEV note #104","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00105","title":"HEALTH note #105","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00106","title":"HEALTH note #106","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00107","title":"RAG note #107","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.953Z"}
+{"id":"synth-00108","title":"WORK note #108","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00109","title":"DEV note #109","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00110","title":"DEV note #110","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.953Z"}
+{"id":"synth-00111","title":"HEALTH note #111","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00112","title":"RAG note #112","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00113","title":"DEV note #113","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00114","title":"DEV note #114","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.953Z"}
+{"id":"synth-00115","title":"RAG note #115","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.953Z"}
+{"id":"synth-00116","title":"HEALTH note #116","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00117","title":"HEALTH note #117","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.953Z"}
+{"id":"synth-00118","title":"WORK note #118","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.953Z"}
+{"id":"synth-00119","title":"WORK note #119","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.953Z"}
+{"id":"synth-00120","title":"DEV note #120","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.953Z"}
+{"id":"synth-00121","title":"DEV note #121","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.953Z"}
+{"id":"synth-00122","title":"CRYPTO note #122","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.953Z"}
+{"id":"synth-00123","title":"WORK note #123","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00124","title":"WORK note #124","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00125","title":"CRYPTO note #125","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00126","title":"WORK note #126","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.954Z"}
+{"id":"synth-00127","title":"RAG note #127","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.954Z"}
+{"id":"synth-00128","title":"WORK note #128","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00129","title":"RAG note #129","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00130","title":"DEV note #130","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00131","title":"HEALTH note #131","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00132","title":"DEV note #132","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00133","title":"WORK note #133","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00134","title":"HEALTH note #134","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00135","title":"DEV note #135","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00136","title":"WORK note #136","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00137","title":"DEV note #137","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00138","title":"RAG note #138","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00139","title":"RAG note #139","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00140","title":"DEV note #140","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00141","title":"HEALTH note #141","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00142","title":"WORK note #142","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00143","title":"CRYPTO note #143","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00144","title":"DEV note #144","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00145","title":"DEV note #145","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.954Z"}
+{"id":"synth-00146","title":"DEV note #146","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00147","title":"HEALTH note #147","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00148","title":"RAG note #148","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00149","title":"DEV note #149","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.954Z"}
+{"id":"synth-00150","title":"WORK note #150","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00151","title":"WORK note #151","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00152","title":"CRYPTO note #152","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00153","title":"WORK note #153","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00154","title":"CRYPTO note #154","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.954Z"}
+{"id":"synth-00155","title":"HEALTH note #155","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00156","title":"HEALTH note #156","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00157","title":"DEV note #157","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00158","title":"DEV note #158","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.954Z"}
+{"id":"synth-00159","title":"WORK note #159","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00160","title":"HEALTH note #160","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00161","title":"WORK note #161","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00162","title":"WORK note #162","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.954Z"}
+{"id":"synth-00163","title":"RAG note #163","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00164","title":"CRYPTO note #164","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.954Z"}
+{"id":"synth-00165","title":"RAG note #165","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00166","title":"WORK note #166","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00167","title":"HEALTH note #167","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00168","title":"DEV note #168","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00169","title":"WORK note #169","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00170","title":"RAG note #170","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00171","title":"RAG note #171","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.954Z"}
+{"id":"synth-00172","title":"HEALTH note #172","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00173","title":"HEALTH note #173","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00174","title":"RAG note #174","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00175","title":"DEV note #175","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00176","title":"WORK note #176","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00177","title":"DEV note #177","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00178","title":"WORK note #178","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00179","title":"CRYPTO note #179","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00180","title":"DEV note #180","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00181","title":"WORK note #181","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00182","title":"CRYPTO note #182","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00183","title":"RAG note #183","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.954Z"}
+{"id":"synth-00184","title":"RAG note #184","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00185","title":"CRYPTO note #185","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00186","title":"RAG note #186","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00187","title":"HEALTH note #187","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00188","title":"WORK note #188","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00189","title":"HEALTH note #189","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00190","title":"RAG note #190","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00191","title":"DEV note #191","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00192","title":"RAG note #192","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00193","title":"DEV note #193","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00194","title":"RAG note #194","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.954Z"}
+{"id":"synth-00195","title":"DEV note #195","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00196","title":"CRYPTO note #196","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.954Z"}
+{"id":"synth-00197","title":"CRYPTO note #197","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00198","title":"DEV note #198","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.954Z"}
+{"id":"synth-00199","title":"WORK note #199","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00200","title":"RAG note #200","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00201","title":"WORK note #201","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.954Z"}
+{"id":"synth-00202","title":"CRYPTO note #202","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00203","title":"WORK note #203","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00204","title":"CRYPTO note #204","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00205","title":"HEALTH note #205","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00206","title":"RAG note #206","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00207","title":"WORK note #207","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.954Z"}
+{"id":"synth-00208","title":"HEALTH note #208","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.954Z"}
+{"id":"synth-00209","title":"CRYPTO note #209","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00210","title":"DEV note #210","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00211","title":"DEV note #211","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.954Z"}
+{"id":"synth-00212","title":"DEV note #212","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00213","title":"DEV note #213","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.954Z"}
+{"id":"synth-00214","title":"CRYPTO note #214","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.954Z"}
+{"id":"synth-00215","title":"CRYPTO note #215","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00216","title":"RAG note #216","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.954Z"}
+{"id":"synth-00217","title":"DEV note #217","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.954Z"}
+{"id":"synth-00218","title":"CRYPTO note #218","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00219","title":"HEALTH note #219","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00220","title":"RAG note #220","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.954Z"}
+{"id":"synth-00221","title":"RAG note #221","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.954Z"}
+{"id":"synth-00222","title":"RAG note #222","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.954Z"}
+{"id":"synth-00223","title":"DEV note #223","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.954Z"}
+{"id":"synth-00224","title":"CRYPTO note #224","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00225","title":"CRYPTO note #225","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00226","title":"HEALTH note #226","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00227","title":"WORK note #227","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00228","title":"WORK note #228","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.955Z"}
+{"id":"synth-00229","title":"HEALTH note #229","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00230","title":"CRYPTO note #230","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00231","title":"DEV note #231","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00232","title":"CRYPTO note #232","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00233","title":"RAG note #233","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00234","title":"DEV note #234","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00235","title":"HEALTH note #235","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00236","title":"DEV note #236","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00237","title":"CRYPTO note #237","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00238","title":"HEALTH note #238","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00239","title":"CRYPTO note #239","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00240","title":"HEALTH note #240","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00241","title":"DEV note #241","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00242","title":"HEALTH note #242","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00243","title":"DEV note #243","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00244","title":"WORK note #244","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.955Z"}
+{"id":"synth-00245","title":"RAG note #245","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.955Z"}
+{"id":"synth-00246","title":"CRYPTO note #246","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00247","title":"RAG note #247","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00248","title":"DEV note #248","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00249","title":"RAG note #249","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00250","title":"HEALTH note #250","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00251","title":"RAG note #251","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00252","title":"WORK note #252","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00253","title":"CRYPTO note #253","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00254","title":"DEV note #254","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.955Z"}
+{"id":"synth-00255","title":"HEALTH note #255","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00256","title":"WORK note #256","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00257","title":"CRYPTO note #257","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00258","title":"WORK note #258","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00259","title":"WORK note #259","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00260","title":"RAG note #260","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00261","title":"HEALTH note #261","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00262","title":"CRYPTO note #262","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00263","title":"RAG note #263","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00264","title":"CRYPTO note #264","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00265","title":"DEV note #265","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00266","title":"WORK note #266","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00267","title":"WORK note #267","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00268","title":"CRYPTO note #268","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.955Z"}
+{"id":"synth-00269","title":"CRYPTO note #269","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00270","title":"CRYPTO note #270","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00271","title":"HEALTH note #271","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00272","title":"RAG note #272","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.955Z"}
+{"id":"synth-00273","title":"CRYPTO note #273","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00274","title":"DEV note #274","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.955Z"}
+{"id":"synth-00275","title":"DEV note #275","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00276","title":"WORK note #276","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00277","title":"HEALTH note #277","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00278","title":"CRYPTO note #278","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.955Z"}
+{"id":"synth-00279","title":"WORK note #279","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00280","title":"HEALTH note #280","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.955Z"}
+{"id":"synth-00281","title":"HEALTH note #281","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00282","title":"CRYPTO note #282","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00283","title":"RAG note #283","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00284","title":"CRYPTO note #284","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00285","title":"WORK note #285","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.955Z"}
+{"id":"synth-00286","title":"RAG note #286","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00287","title":"CRYPTO note #287","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00288","title":"CRYPTO note #288","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00289","title":"HEALTH note #289","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00290","title":"CRYPTO note #290","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00291","title":"DEV note #291","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00292","title":"HEALTH note #292","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00293","title":"RAG note #293","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00294","title":"CRYPTO note #294","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00295","title":"RAG note #295","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00296","title":"WORK note #296","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00297","title":"DEV note #297","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00298","title":"CRYPTO note #298","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.955Z"}
+{"id":"synth-00299","title":"RAG note #299","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00300","title":"RAG note #300","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00301","title":"CRYPTO note #301","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.955Z"}
+{"id":"synth-00302","title":"DEV note #302","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00303","title":"WORK note #303","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00304","title":"CRYPTO note #304","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.955Z"}
+{"id":"synth-00305","title":"CRYPTO note #305","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00306","title":"DEV note #306","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.955Z"}
+{"id":"synth-00307","title":"RAG note #307","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.955Z"}
+{"id":"synth-00308","title":"WORK note #308","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.955Z"}
+{"id":"synth-00309","title":"RAG note #309","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.955Z"}
+{"id":"synth-00310","title":"HEALTH note #310","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.955Z"}
+{"id":"synth-00311","title":"CRYPTO note #311","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00312","title":"RAG note #312","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.955Z"}
+{"id":"synth-00313","title":"DEV note #313","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.955Z"}
+{"id":"synth-00314","title":"DEV note #314","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.955Z"}
+{"id":"synth-00315","title":"HEALTH note #315","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.955Z"}
+{"id":"synth-00316","title":"HEALTH note #316","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00317","title":"RAG note #317","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.955Z"}
+{"id":"synth-00318","title":"HEALTH note #318","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00319","title":"WORK note #319","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00320","title":"WORK note #320","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00321","title":"WORK note #321","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00322","title":"WORK note #322","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00323","title":"CRYPTO note #323","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00324","title":"WORK note #324","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00325","title":"WORK note #325","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00326","title":"DEV note #326","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00327","title":"WORK note #327","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00328","title":"DEV note #328","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00329","title":"RAG note #329","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00330","title":"WORK note #330","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.956Z"}
+{"id":"synth-00331","title":"DEV note #331","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00332","title":"CRYPTO note #332","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00333","title":"HEALTH note #333","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00334","title":"WORK note #334","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00335","title":"CRYPTO note #335","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.956Z"}
+{"id":"synth-00336","title":"CRYPTO note #336","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00337","title":"CRYPTO note #337","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00338","title":"HEALTH note #338","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00339","title":"WORK note #339","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00340","title":"CRYPTO note #340","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.956Z"}
+{"id":"synth-00341","title":"CRYPTO note #341","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00342","title":"RAG note #342","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00343","title":"CRYPTO note #343","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00344","title":"HEALTH note #344","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.956Z"}
+{"id":"synth-00345","title":"DEV note #345","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00346","title":"CRYPTO note #346","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00347","title":"DEV note #347","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00348","title":"CRYPTO note #348","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00349","title":"WORK note #349","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00350","title":"RAG note #350","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00351","title":"CRYPTO note #351","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00352","title":"HEALTH note #352","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00353","title":"HEALTH note #353","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00354","title":"WORK note #354","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.956Z"}
+{"id":"synth-00355","title":"HEALTH note #355","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.956Z"}
+{"id":"synth-00356","title":"DEV note #356","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00357","title":"RAG note #357","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00358","title":"WORK note #358","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.956Z"}
+{"id":"synth-00359","title":"DEV note #359","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00360","title":"CRYPTO note #360","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00361","title":"CRYPTO note #361","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00362","title":"DEV note #362","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00363","title":"CRYPTO note #363","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00364","title":"CRYPTO note #364","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00365","title":"RAG note #365","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.956Z"}
+{"id":"synth-00366","title":"RAG note #366","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00367","title":"DEV note #367","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00368","title":"DEV note #368","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00369","title":"HEALTH note #369","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00370","title":"HEALTH note #370","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00371","title":"WORK note #371","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00372","title":"DEV note #372","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00373","title":"RAG note #373","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00374","title":"HEALTH note #374","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00375","title":"RAG note #375","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00376","title":"DEV note #376","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.956Z"}
+{"id":"synth-00377","title":"HEALTH note #377","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00378","title":"HEALTH note #378","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00379","title":"DEV note #379","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.956Z"}
+{"id":"synth-00380","title":"WORK note #380","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00381","title":"CRYPTO note #381","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.956Z"}
+{"id":"synth-00382","title":"HEALTH note #382","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00383","title":"DEV note #383","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00384","title":"CRYPTO note #384","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00385","title":"WORK note #385","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00386","title":"WORK note #386","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00387","title":"CRYPTO note #387","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00388","title":"WORK note #388","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.956Z"}
+{"id":"synth-00389","title":"HEALTH note #389","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00390","title":"RAG note #390","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00391","title":"CRYPTO note #391","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00392","title":"WORK note #392","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00393","title":"DEV note #393","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00394","title":"WORK note #394","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.956Z"}
+{"id":"synth-00395","title":"DEV note #395","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00396","title":"HEALTH note #396","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00397","title":"RAG note #397","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.956Z"}
+{"id":"synth-00398","title":"CRYPTO note #398","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00399","title":"RAG note #399","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00400","title":"WORK note #400","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.956Z"}
+{"id":"synth-00401","title":"WORK note #401","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00402","title":"DEV note #402","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.956Z"}
+{"id":"synth-00403","title":"CRYPTO note #403","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.956Z"}
+{"id":"synth-00404","title":"RAG note #404","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.956Z"}
+{"id":"synth-00405","title":"RAG note #405","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.956Z"}
+{"id":"synth-00406","title":"DEV note #406","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00407","title":"CRYPTO note #407","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.956Z"}
+{"id":"synth-00408","title":"CRYPTO note #408","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.956Z"}
+{"id":"synth-00409","title":"RAG note #409","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.956Z"}
+{"id":"synth-00410","title":"DEV note #410","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.956Z"}
+{"id":"synth-00411","title":"RAG note #411","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.956Z"}
+{"id":"synth-00412","title":"HEALTH note #412","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.956Z"}
+{"id":"synth-00413","title":"CRYPTO note #413","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.956Z"}
+{"id":"synth-00414","title":"CRYPTO note #414","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.956Z"}
+{"id":"synth-00415","title":"DEV note #415","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.957Z"}
+{"id":"synth-00416","title":"CRYPTO note #416","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.957Z"}
+{"id":"synth-00417","title":"WORK note #417","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.957Z"}
+{"id":"synth-00418","title":"HEALTH note #418","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.957Z"}
+{"id":"synth-00419","title":"RAG note #419","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.957Z"}
+{"id":"synth-00420","title":"CRYPTO note #420","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.957Z"}
+{"id":"synth-00421","title":"RAG note #421","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.957Z"}
+{"id":"synth-00422","title":"WORK note #422","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00423","title":"WORK note #423","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.957Z"}
+{"id":"synth-00424","title":"WORK note #424","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.957Z"}
+{"id":"synth-00425","title":"DEV note #425","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00426","title":"WORK note #426","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.957Z"}
+{"id":"synth-00427","title":"WORK note #427","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.957Z"}
+{"id":"synth-00428","title":"HEALTH note #428","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00429","title":"HEALTH note #429","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.957Z"}
+{"id":"synth-00430","title":"RAG note #430","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.957Z"}
+{"id":"synth-00431","title":"WORK note #431","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.957Z"}
+{"id":"synth-00432","title":"RAG note #432","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00433","title":"DEV note #433","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.957Z"}
+{"id":"synth-00434","title":"WORK note #434","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.957Z"}
+{"id":"synth-00435","title":"RAG note #435","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.957Z"}
+{"id":"synth-00436","title":"RAG note #436","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00437","title":"HEALTH note #437","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.957Z"}
+{"id":"synth-00438","title":"HEALTH note #438","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.957Z"}
+{"id":"synth-00439","title":"HEALTH note #439","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.957Z"}
+{"id":"synth-00440","title":"DEV note #440","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.957Z"}
+{"id":"synth-00441","title":"HEALTH note #441","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.957Z"}
+{"id":"synth-00442","title":"HEALTH note #442","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.957Z"}
+{"id":"synth-00443","title":"HEALTH note #443","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.957Z"}
+{"id":"synth-00444","title":"CRYPTO note #444","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.957Z"}
+{"id":"synth-00445","title":"CRYPTO note #445","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.957Z"}
+{"id":"synth-00446","title":"HEALTH note #446","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.957Z"}
+{"id":"synth-00447","title":"WORK note #447","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.957Z"}
+{"id":"synth-00448","title":"CRYPTO note #448","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.957Z"}
+{"id":"synth-00449","title":"DEV note #449","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.957Z"}
+{"id":"synth-00450","title":"DEV note #450","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.957Z"}
+{"id":"synth-00451","title":"RAG note #451","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.957Z"}
+{"id":"synth-00452","title":"CRYPTO note #452","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.957Z"}
+{"id":"synth-00453","title":"DEV note #453","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.957Z"}
+{"id":"synth-00454","title":"HEALTH note #454","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00455","title":"WORK note #455","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00456","title":"RAG note #456","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00457","title":"DEV note #457","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00458","title":"WORK note #458","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00459","title":"CRYPTO note #459","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.958Z"}
+{"id":"synth-00460","title":"RAG note #460","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.958Z"}
+{"id":"synth-00461","title":"WORK note #461","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00462","title":"DEV note #462","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.958Z"}
+{"id":"synth-00463","title":"CRYPTO note #463","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00464","title":"WORK note #464","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.958Z"}
+{"id":"synth-00465","title":"DEV note #465","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00466","title":"DEV note #466","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.958Z"}
+{"id":"synth-00467","title":"CRYPTO note #467","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00468","title":"RAG note #468","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.958Z"}
+{"id":"synth-00469","title":"RAG note #469","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.958Z"}
+{"id":"synth-00470","title":"RAG note #470","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00471","title":"WORK note #471","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00472","title":"CRYPTO note #472","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.958Z"}
+{"id":"synth-00473","title":"HEALTH note #473","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00474","title":"WORK note #474","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00475","title":"CRYPTO note #475","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00476","title":"WORK note #476","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00477","title":"WORK note #477","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00478","title":"HEALTH note #478","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00479","title":"CRYPTO note #479","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00480","title":"DEV note #480","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.958Z"}
+{"id":"synth-00481","title":"HEALTH note #481","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.958Z"}
+{"id":"synth-00482","title":"CRYPTO note #482","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.958Z"}
+{"id":"synth-00483","title":"RAG note #483","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.958Z"}
+{"id":"synth-00484","title":"HEALTH note #484","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.958Z"}
+{"id":"synth-00485","title":"DEV note #485","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00486","title":"WORK note #486","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00487","title":"DEV note #487","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.958Z"}
+{"id":"synth-00488","title":"WORK note #488","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.958Z"}
+{"id":"synth-00489","title":"CRYPTO note #489","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00490","title":"WORK note #490","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.958Z"}
+{"id":"synth-00491","title":"WORK note #491","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00492","title":"HEALTH note #492","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.958Z"}
+{"id":"synth-00493","title":"CRYPTO note #493","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00494","title":"WORK note #494","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00495","title":"CRYPTO note #495","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.958Z"}
+{"id":"synth-00496","title":"HEALTH note #496","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.958Z"}
+{"id":"synth-00497","title":"RAG note #497","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.958Z"}
+{"id":"synth-00498","title":"CRYPTO note #498","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00499","title":"DEV note #499","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00500","title":"RAG note #500","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.958Z"}
+{"id":"synth-00501","title":"CRYPTO note #501","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.958Z"}
+{"id":"synth-00502","title":"WORK note #502","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.958Z"}
+{"id":"synth-00503","title":"CRYPTO note #503","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.958Z"}
+{"id":"synth-00504","title":"WORK note #504","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00505","title":"RAG note #505","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00506","title":"WORK note #506","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00507","title":"DEV note #507","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.958Z"}
+{"id":"synth-00508","title":"HEALTH note #508","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.958Z"}
+{"id":"synth-00509","title":"CRYPTO note #509","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.958Z"}
+{"id":"synth-00510","title":"HEALTH note #510","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.959Z"}
+{"id":"synth-00511","title":"CRYPTO note #511","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.959Z"}
+{"id":"synth-00512","title":"CRYPTO note #512","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.959Z"}
+{"id":"synth-00513","title":"RAG note #513","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.959Z"}
+{"id":"synth-00514","title":"RAG note #514","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.959Z"}
+{"id":"synth-00515","title":"WORK note #515","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.959Z"}
+{"id":"synth-00516","title":"CRYPTO note #516","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.959Z"}
+{"id":"synth-00517","title":"RAG note #517","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.959Z"}
+{"id":"synth-00518","title":"WORK note #518","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.959Z"}
+{"id":"synth-00519","title":"WORK note #519","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.959Z"}
+{"id":"synth-00520","title":"CRYPTO note #520","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.959Z"}
+{"id":"synth-00521","title":"WORK note #521","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.959Z"}
+{"id":"synth-00522","title":"DEV note #522","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.959Z"}
+{"id":"synth-00523","title":"HEALTH note #523","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00524","title":"WORK note #524","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00525","title":"CRYPTO note #525","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.959Z"}
+{"id":"synth-00526","title":"CRYPTO note #526","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.959Z"}
+{"id":"synth-00527","title":"HEALTH note #527","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.959Z"}
+{"id":"synth-00528","title":"RAG note #528","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.959Z"}
+{"id":"synth-00529","title":"DEV note #529","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00530","title":"WORK note #530","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.959Z"}
+{"id":"synth-00531","title":"WORK note #531","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.959Z"}
+{"id":"synth-00532","title":"WORK note #532","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.959Z"}
+{"id":"synth-00533","title":"HEALTH note #533","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.959Z"}
+{"id":"synth-00534","title":"DEV note #534","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.959Z"}
+{"id":"synth-00535","title":"HEALTH note #535","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.959Z"}
+{"id":"synth-00536","title":"RAG note #536","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.959Z"}
+{"id":"synth-00537","title":"HEALTH note #537","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.959Z"}
+{"id":"synth-00538","title":"CRYPTO note #538","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.959Z"}
+{"id":"synth-00539","title":"CRYPTO note #539","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.959Z"}
+{"id":"synth-00540","title":"RAG note #540","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.959Z"}
+{"id":"synth-00541","title":"HEALTH note #541","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.959Z"}
+{"id":"synth-00542","title":"CRYPTO note #542","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.959Z"}
+{"id":"synth-00543","title":"DEV note #543","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.959Z"}
+{"id":"synth-00544","title":"CRYPTO note #544","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.959Z"}
+{"id":"synth-00545","title":"HEALTH note #545","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.959Z"}
+{"id":"synth-00546","title":"HEALTH note #546","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00547","title":"CRYPTO note #547","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.959Z"}
+{"id":"synth-00548","title":"CRYPTO note #548","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.959Z"}
+{"id":"synth-00549","title":"CRYPTO note #549","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.959Z"}
+{"id":"synth-00550","title":"DEV note #550","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.959Z"}
+{"id":"synth-00551","title":"DEV note #551","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.959Z"}
+{"id":"synth-00552","title":"WORK note #552","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.959Z"}
+{"id":"synth-00553","title":"CRYPTO note #553","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.959Z"}
+{"id":"synth-00554","title":"WORK note #554","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00555","title":"CRYPTO note #555","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.959Z"}
+{"id":"synth-00556","title":"RAG note #556","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.959Z"}
+{"id":"synth-00557","title":"CRYPTO note #557","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.959Z"}
+{"id":"synth-00558","title":"HEALTH note #558","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.960Z"}
+{"id":"synth-00559","title":"RAG note #559","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.960Z"}
+{"id":"synth-00560","title":"CRYPTO note #560","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.960Z"}
+{"id":"synth-00561","title":"CRYPTO note #561","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00562","title":"WORK note #562","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.960Z"}
+{"id":"synth-00563","title":"DEV note #563","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.960Z"}
+{"id":"synth-00564","title":"CRYPTO note #564","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00565","title":"HEALTH note #565","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.960Z"}
+{"id":"synth-00566","title":"CRYPTO note #566","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00567","title":"DEV note #567","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00568","title":"RAG note #568","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00569","title":"WORK note #569","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.960Z"}
+{"id":"synth-00570","title":"CRYPTO note #570","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00571","title":"DEV note #571","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.960Z"}
+{"id":"synth-00572","title":"RAG note #572","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.960Z"}
+{"id":"synth-00573","title":"CRYPTO note #573","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00574","title":"DEV note #574","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.960Z"}
+{"id":"synth-00575","title":"WORK note #575","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00576","title":"CRYPTO note #576","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00577","title":"RAG note #577","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.960Z"}
+{"id":"synth-00578","title":"RAG note #578","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.960Z"}
+{"id":"synth-00579","title":"RAG note #579","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00580","title":"HEALTH note #580","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.960Z"}
+{"id":"synth-00581","title":"HEALTH note #581","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.960Z"}
+{"id":"synth-00582","title":"HEALTH note #582","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.960Z"}
+{"id":"synth-00583","title":"CRYPTO note #583","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00584","title":"DEV note #584","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00585","title":"WORK note #585","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.960Z"}
+{"id":"synth-00586","title":"WORK note #586","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00587","title":"RAG note #587","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.960Z"}
+{"id":"synth-00588","title":"WORK note #588","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.960Z"}
+{"id":"synth-00589","title":"DEV note #589","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00590","title":"WORK note #590","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.960Z"}
+{"id":"synth-00591","title":"RAG note #591","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.960Z"}
+{"id":"synth-00592","title":"DEV note #592","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.960Z"}
+{"id":"synth-00593","title":"RAG note #593","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.960Z"}
+{"id":"synth-00594","title":"WORK note #594","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.960Z"}
+{"id":"synth-00595","title":"CRYPTO note #595","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.960Z"}
+{"id":"synth-00596","title":"WORK note #596","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.960Z"}
+{"id":"synth-00597","title":"WORK note #597","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00598","title":"CRYPTO note #598","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.960Z"}
+{"id":"synth-00599","title":"WORK note #599","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.960Z"}
+{"id":"synth-00600","title":"CRYPTO note #600","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.960Z"}
+{"id":"synth-00601","title":"DEV note #601","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.960Z"}
+{"id":"synth-00602","title":"RAG note #602","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.960Z"}
+{"id":"synth-00603","title":"CRYPTO note #603","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.960Z"}
+{"id":"synth-00604","title":"WORK note #604","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.960Z"}
+{"id":"synth-00605","title":"DEV note #605","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.960Z"}
+{"id":"synth-00606","title":"DEV note #606","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.960Z"}
+{"id":"synth-00607","title":"CRYPTO note #607","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.960Z"}
+{"id":"synth-00608","title":"DEV note #608","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.960Z"}
+{"id":"synth-00609","title":"RAG note #609","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.960Z"}
+{"id":"synth-00610","title":"RAG note #610","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.960Z"}
+{"id":"synth-00611","title":"CRYPTO note #611","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00612","title":"CRYPTO note #612","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00613","title":"RAG note #613","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00614","title":"HEALTH note #614","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00615","title":"HEALTH note #615","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00616","title":"CRYPTO note #616","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00617","title":"CRYPTO note #617","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00618","title":"HEALTH note #618","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00619","title":"CRYPTO note #619","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00620","title":"CRYPTO note #620","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00621","title":"DEV note #621","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00622","title":"WORK note #622","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00623","title":"CRYPTO note #623","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00624","title":"CRYPTO note #624","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00625","title":"RAG note #625","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00626","title":"DEV note #626","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00627","title":"HEALTH note #627","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00628","title":"HEALTH note #628","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00629","title":"WORK note #629","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00630","title":"CRYPTO note #630","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00631","title":"DEV note #631","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00632","title":"RAG note #632","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00633","title":"DEV note #633","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.961Z"}
+{"id":"synth-00634","title":"DEV note #634","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00635","title":"CRYPTO note #635","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00636","title":"RAG note #636","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.961Z"}
+{"id":"synth-00637","title":"CRYPTO note #637","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.961Z"}
+{"id":"synth-00638","title":"WORK note #638","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00639","title":"RAG note #639","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00640","title":"WORK note #640","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00641","title":"HEALTH note #641","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00642","title":"RAG note #642","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00643","title":"CRYPTO note #643","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.961Z"}
+{"id":"synth-00644","title":"WORK note #644","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00645","title":"WORK note #645","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00646","title":"DEV note #646","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00647","title":"CRYPTO note #647","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00648","title":"RAG note #648","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.961Z"}
+{"id":"synth-00649","title":"WORK note #649","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00650","title":"CRYPTO note #650","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00651","title":"CRYPTO note #651","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00652","title":"HEALTH note #652","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00653","title":"HEALTH note #653","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00654","title":"RAG note #654","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00655","title":"CRYPTO note #655","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00656","title":"CRYPTO note #656","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00657","title":"WORK note #657","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.961Z"}
+{"id":"synth-00658","title":"DEV note #658","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00659","title":"HEALTH note #659","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00660","title":"CRYPTO note #660","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.961Z"}
+{"id":"synth-00661","title":"HEALTH note #661","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.961Z"}
+{"id":"synth-00662","title":"DEV note #662","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.961Z"}
+{"id":"synth-00663","title":"RAG note #663","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00664","title":"WORK note #664","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00665","title":"CRYPTO note #665","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.961Z"}
+{"id":"synth-00666","title":"CRYPTO note #666","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00667","title":"RAG note #667","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.961Z"}
+{"id":"synth-00668","title":"HEALTH note #668","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00669","title":"HEALTH note #669","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00670","title":"CRYPTO note #670","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00671","title":"DEV note #671","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00672","title":"RAG note #672","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00673","title":"RAG note #673","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00674","title":"WORK note #674","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00675","title":"RAG note #675","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.961Z"}
+{"id":"synth-00676","title":"WORK note #676","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00677","title":"WORK note #677","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00678","title":"CRYPTO note #678","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00679","title":"RAG note #679","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.961Z"}
+{"id":"synth-00680","title":"HEALTH note #680","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00681","title":"CRYPTO note #681","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.961Z"}
+{"id":"synth-00682","title":"DEV note #682","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00683","title":"DEV note #683","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00684","title":"HEALTH note #684","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.961Z"}
+{"id":"synth-00685","title":"RAG note #685","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00686","title":"HEALTH note #686","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00687","title":"RAG note #687","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00688","title":"DEV note #688","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00689","title":"WORK note #689","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.961Z"}
+{"id":"synth-00690","title":"CRYPTO note #690","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00691","title":"DEV note #691","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00692","title":"DEV note #692","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.961Z"}
+{"id":"synth-00693","title":"RAG note #693","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.961Z"}
+{"id":"synth-00694","title":"RAG note #694","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.961Z"}
+{"id":"synth-00695","title":"DEV note #695","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00696","title":"DEV note #696","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00697","title":"HEALTH note #697","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.961Z"}
+{"id":"synth-00698","title":"DEV note #698","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.961Z"}
+{"id":"synth-00699","title":"WORK note #699","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.961Z"}
+{"id":"synth-00700","title":"CRYPTO note #700","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.961Z"}
+{"id":"synth-00701","title":"WORK note #701","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.961Z"}
+{"id":"synth-00702","title":"HEALTH note #702","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.961Z"}
+{"id":"synth-00703","title":"RAG note #703","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.961Z"}
+{"id":"synth-00704","title":"HEALTH note #704","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00705","title":"DEV note #705","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00706","title":"RAG note #706","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00707","title":"HEALTH note #707","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00708","title":"CRYPTO note #708","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00709","title":"HEALTH note #709","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00710","title":"RAG note #710","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.962Z"}
+{"id":"synth-00711","title":"CRYPTO note #711","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00712","title":"RAG note #712","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00713","title":"DEV note #713","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00714","title":"HEALTH note #714","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00715","title":"DEV note #715","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00716","title":"DEV note #716","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00717","title":"DEV note #717","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00718","title":"CRYPTO note #718","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00719","title":"HEALTH note #719","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00720","title":"DEV note #720","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00721","title":"DEV note #721","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00722","title":"WORK note #722","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.962Z"}
+{"id":"synth-00723","title":"CRYPTO note #723","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00724","title":"RAG note #724","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00725","title":"DEV note #725","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00726","title":"CRYPTO note #726","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00727","title":"RAG note #727","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00728","title":"RAG note #728","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00729","title":"HEALTH note #729","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00730","title":"WORK note #730","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.962Z"}
+{"id":"synth-00731","title":"RAG note #731","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.962Z"}
+{"id":"synth-00732","title":"HEALTH note #732","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00733","title":"DEV note #733","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00734","title":"CRYPTO note #734","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00735","title":"WORK note #735","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00736","title":"DEV note #736","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.962Z"}
+{"id":"synth-00737","title":"DEV note #737","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00738","title":"HEALTH note #738","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.962Z"}
+{"id":"synth-00739","title":"HEALTH note #739","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00740","title":"RAG note #740","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00741","title":"HEALTH note #741","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.962Z"}
+{"id":"synth-00742","title":"CRYPTO note #742","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.962Z"}
+{"id":"synth-00743","title":"RAG note #743","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00744","title":"CRYPTO note #744","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00745","title":"WORK note #745","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00746","title":"DEV note #746","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.962Z"}
+{"id":"synth-00747","title":"CRYPTO note #747","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.962Z"}
+{"id":"synth-00748","title":"WORK note #748","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00749","title":"HEALTH note #749","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00750","title":"DEV note #750","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00751","title":"HEALTH note #751","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00752","title":"HEALTH note #752","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00753","title":"CRYPTO note #753","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00754","title":"RAG note #754","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00755","title":"RAG note #755","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00756","title":"DEV note #756","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.962Z"}
+{"id":"synth-00757","title":"RAG note #757","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00758","title":"DEV note #758","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00759","title":"DEV note #759","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00760","title":"HEALTH note #760","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00761","title":"DEV note #761","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00762","title":"WORK note #762","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00763","title":"WORK note #763","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00764","title":"WORK note #764","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00765","title":"CRYPTO note #765","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.962Z"}
+{"id":"synth-00766","title":"HEALTH note #766","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00767","title":"CRYPTO note #767","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00768","title":"HEALTH note #768","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00769","title":"RAG note #769","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.962Z"}
+{"id":"synth-00770","title":"CRYPTO note #770","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00771","title":"HEALTH note #771","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00772","title":"HEALTH note #772","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00773","title":"DEV note #773","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.962Z"}
+{"id":"synth-00774","title":"RAG note #774","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00775","title":"CRYPTO note #775","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00776","title":"RAG note #776","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00777","title":"DEV note #777","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00778","title":"CRYPTO note #778","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00779","title":"RAG note #779","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.962Z"}
+{"id":"synth-00780","title":"WORK note #780","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.962Z"}
+{"id":"synth-00781","title":"CRYPTO note #781","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00782","title":"CRYPTO note #782","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.962Z"}
+{"id":"synth-00783","title":"DEV note #783","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00784","title":"DEV note #784","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00785","title":"DEV note #785","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.962Z"}
+{"id":"synth-00786","title":"WORK note #786","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.962Z"}
+{"id":"synth-00787","title":"DEV note #787","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.962Z"}
+{"id":"synth-00788","title":"RAG note #788","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00789","title":"WORK note #789","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.962Z"}
+{"id":"synth-00790","title":"DEV note #790","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00791","title":"DEV note #791","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.962Z"}
+{"id":"synth-00792","title":"WORK note #792","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.962Z"}
+{"id":"synth-00793","title":"DEV note #793","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.962Z"}
+{"id":"synth-00794","title":"CRYPTO note #794","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.963Z"}
+{"id":"synth-00795","title":"WORK note #795","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.963Z"}
+{"id":"synth-00796","title":"CRYPTO note #796","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00797","title":"HEALTH note #797","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.963Z"}
+{"id":"synth-00798","title":"RAG note #798","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.963Z"}
+{"id":"synth-00799","title":"CRYPTO note #799","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00800","title":"RAG note #800","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00801","title":"RAG note #801","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.963Z"}
+{"id":"synth-00802","title":"DEV note #802","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00803","title":"WORK note #803","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.963Z"}
+{"id":"synth-00804","title":"HEALTH note #804","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00805","title":"DEV note #805","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.963Z"}
+{"id":"synth-00806","title":"HEALTH note #806","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.963Z"}
+{"id":"synth-00807","title":"RAG note #807","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00808","title":"WORK note #808","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00809","title":"CRYPTO note #809","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00810","title":"CRYPTO note #810","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.963Z"}
+{"id":"synth-00811","title":"DEV note #811","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00812","title":"HEALTH note #812","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00813","title":"DEV note #813","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00814","title":"CRYPTO note #814","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.963Z"}
+{"id":"synth-00815","title":"HEALTH note #815","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00816","title":"RAG note #816","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00817","title":"DEV note #817","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.963Z"}
+{"id":"synth-00818","title":"RAG note #818","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.963Z"}
+{"id":"synth-00819","title":"WORK note #819","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00820","title":"RAG note #820","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.963Z"}
+{"id":"synth-00821","title":"RAG note #821","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.963Z"}
+{"id":"synth-00822","title":"HEALTH note #822","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00823","title":"RAG note #823","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00824","title":"HEALTH note #824","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00825","title":"CRYPTO note #825","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.963Z"}
+{"id":"synth-00826","title":"CRYPTO note #826","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00827","title":"RAG note #827","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00828","title":"DEV note #828","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00829","title":"CRYPTO note #829","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.963Z"}
+{"id":"synth-00830","title":"WORK note #830","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00831","title":"WORK note #831","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.963Z"}
+{"id":"synth-00832","title":"CRYPTO note #832","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.963Z"}
+{"id":"synth-00833","title":"HEALTH note #833","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.963Z"}
+{"id":"synth-00834","title":"RAG note #834","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00835","title":"RAG note #835","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.963Z"}
+{"id":"synth-00836","title":"HEALTH note #836","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00837","title":"DEV note #837","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00838","title":"HEALTH note #838","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.963Z"}
+{"id":"synth-00839","title":"WORK note #839","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00840","title":"RAG note #840","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.963Z"}
+{"id":"synth-00841","title":"WORK note #841","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.963Z"}
+{"id":"synth-00842","title":"RAG note #842","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00843","title":"HEALTH note #843","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.963Z"}
+{"id":"synth-00844","title":"WORK note #844","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.963Z"}
+{"id":"synth-00845","title":"CRYPTO note #845","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.963Z"}
+{"id":"synth-00846","title":"WORK note #846","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.963Z"}
+{"id":"synth-00847","title":"CRYPTO note #847","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00848","title":"HEALTH note #848","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00849","title":"HEALTH note #849","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00850","title":"WORK note #850","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.963Z"}
+{"id":"synth-00851","title":"DEV note #851","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.963Z"}
+{"id":"synth-00852","title":"CRYPTO note #852","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.963Z"}
+{"id":"synth-00853","title":"CRYPTO note #853","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00854","title":"HEALTH note #854","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.963Z"}
+{"id":"synth-00855","title":"RAG note #855","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00856","title":"CRYPTO note #856","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.963Z"}
+{"id":"synth-00857","title":"HEALTH note #857","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.963Z"}
+{"id":"synth-00858","title":"CRYPTO note #858","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.963Z"}
+{"id":"synth-00859","title":"HEALTH note #859","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.963Z"}
+{"id":"synth-00860","title":"DEV note #860","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00861","title":"WORK note #861","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.963Z"}
+{"id":"synth-00862","title":"HEALTH note #862","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.963Z"}
+{"id":"synth-00863","title":"WORK note #863","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.963Z"}
+{"id":"synth-00864","title":"WORK note #864","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.963Z"}
+{"id":"synth-00865","title":"WORK note #865","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.964Z"}
+{"id":"synth-00866","title":"HEALTH note #866","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.964Z"}
+{"id":"synth-00867","title":"CRYPTO note #867","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.964Z"}
+{"id":"synth-00868","title":"HEALTH note #868","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.964Z"}
+{"id":"synth-00869","title":"CRYPTO note #869","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.964Z"}
+{"id":"synth-00870","title":"HEALTH note #870","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.964Z"}
+{"id":"synth-00871","title":"HEALTH note #871","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.964Z"}
+{"id":"synth-00872","title":"HEALTH note #872","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.964Z"}
+{"id":"synth-00873","title":"RAG note #873","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.964Z"}
+{"id":"synth-00874","title":"RAG note #874","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.964Z"}
+{"id":"synth-00875","title":"CRYPTO note #875","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.964Z"}
+{"id":"synth-00876","title":"CRYPTO note #876","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.964Z"}
+{"id":"synth-00877","title":"WORK note #877","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.964Z"}
+{"id":"synth-00878","title":"DEV note #878","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.964Z"}
+{"id":"synth-00879","title":"RAG note #879","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.964Z"}
+{"id":"synth-00880","title":"CRYPTO note #880","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.964Z"}
+{"id":"synth-00881","title":"DEV note #881","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.964Z"}
+{"id":"synth-00882","title":"DEV note #882","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.964Z"}
+{"id":"synth-00883","title":"RAG note #883","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.964Z"}
+{"id":"synth-00884","title":"WORK note #884","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.964Z"}
+{"id":"synth-00885","title":"CRYPTO note #885","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.964Z"}
+{"id":"synth-00886","title":"RAG note #886","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.964Z"}
+{"id":"synth-00887","title":"CRYPTO note #887","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.964Z"}
+{"id":"synth-00888","title":"CRYPTO note #888","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.964Z"}
+{"id":"synth-00889","title":"CRYPTO note #889","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.964Z"}
+{"id":"synth-00890","title":"CRYPTO note #890","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.964Z"}
+{"id":"synth-00891","title":"HEALTH note #891","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.964Z"}
+{"id":"synth-00892","title":"HEALTH note #892","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.964Z"}
+{"id":"synth-00893","title":"CRYPTO note #893","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.964Z"}
+{"id":"synth-00894","title":"CRYPTO note #894","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.964Z"}
+{"id":"synth-00895","title":"CRYPTO note #895","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.964Z"}
+{"id":"synth-00896","title":"RAG note #896","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00897","title":"WORK note #897","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00898","title":"CRYPTO note #898","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.965Z"}
+{"id":"synth-00899","title":"WORK note #899","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00900","title":"RAG note #900","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00901","title":"WORK note #901","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.965Z"}
+{"id":"synth-00902","title":"RAG note #902","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00903","title":"DEV note #903","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.965Z"}
+{"id":"synth-00904","title":"RAG note #904","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.965Z"}
+{"id":"synth-00905","title":"DEV note #905","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00906","title":"WORK note #906","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00907","title":"RAG note #907","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00908","title":"RAG note #908","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00909","title":"RAG note #909","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.965Z"}
+{"id":"synth-00910","title":"DEV note #910","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00911","title":"HEALTH note #911","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00912","title":"CRYPTO note #912","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00913","title":"DEV note #913","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00914","title":"RAG note #914","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00915","title":"WORK note #915","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.965Z"}
+{"id":"synth-00916","title":"WORK note #916","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.965Z"}
+{"id":"synth-00917","title":"WORK note #917","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00918","title":"DEV note #918","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00919","title":"RAG note #919","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00920","title":"RAG note #920","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00921","title":"HEALTH note #921","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00922","title":"CRYPTO note #922","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00923","title":"HEALTH note #923","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.965Z"}
+{"id":"synth-00924","title":"CRYPTO note #924","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00925","title":"CRYPTO note #925","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.965Z"}
+{"id":"synth-00926","title":"WORK note #926","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00927","title":"HEALTH note #927","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.965Z"}
+{"id":"synth-00928","title":"HEALTH note #928","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00929","title":"WORK note #929","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00930","title":"RAG note #930","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00931","title":"DEV note #931","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.965Z"}
+{"id":"synth-00932","title":"RAG note #932","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00933","title":"CRYPTO note #933","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00934","title":"RAG note #934","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00935","title":"DEV note #935","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.965Z"}
+{"id":"synth-00936","title":"CRYPTO note #936","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.965Z"}
+{"id":"synth-00937","title":"RAG note #937","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00938","title":"CRYPTO note #938","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00939","title":"HEALTH note #939","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.965Z"}
+{"id":"synth-00940","title":"RAG note #940","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.965Z"}
+{"id":"synth-00941","title":"HEALTH note #941","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00942","title":"CRYPTO note #942","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00943","title":"DEV note #943","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.965Z"}
+{"id":"synth-00944","title":"DEV note #944","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00945","title":"CRYPTO note #945","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00946","title":"RAG note #946","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00947","title":"HEALTH note #947","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.965Z"}
+{"id":"synth-00948","title":"WORK note #948","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.965Z"}
+{"id":"synth-00949","title":"HEALTH note #949","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.965Z"}
+{"id":"synth-00950","title":"DEV note #950","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00951","title":"RAG note #951","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.965Z"}
+{"id":"synth-00952","title":"WORK note #952","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-24T10:29:17.965Z"}
+{"id":"synth-00953","title":"HEALTH note #953","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00954","title":"HEALTH note #954","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.965Z"}
+{"id":"synth-00955","title":"WORK note #955","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00956","title":"CRYPTO note #956","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00957","title":"CRYPTO note #957","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00958","title":"WORK note #958","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.965Z"}
+{"id":"synth-00959","title":"CRYPTO note #959","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00960","title":"DEV note #960","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.965Z"}
+{"id":"synth-00961","title":"CRYPTO note #961","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00962","title":"HEALTH note #962","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00963","title":"HEALTH note #963","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.965Z"}
+{"id":"synth-00964","title":"HEALTH note #964","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00965","title":"RAG note #965","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00966","title":"WORK note #966","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00967","title":"CRYPTO note #967","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00968","title":"RAG note #968","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-20T10:29:17.965Z"}
+{"id":"synth-00969","title":"WORK note #969","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00970","title":"HEALTH note #970","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.965Z"}
+{"id":"synth-00971","title":"DEV note #971","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-18T10:29:17.965Z"}
+{"id":"synth-00972","title":"RAG note #972","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00973","title":"WORK note #973","content":"Schedule 1:1 meeting","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.965Z"}
+{"id":"synth-00974","title":"CRYPTO note #974","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.965Z"}
+{"id":"synth-00975","title":"RAG note #975","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.965Z"}
+{"id":"synth-00976","title":"HEALTH note #976","content":"High-protein breakfast idea","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.965Z"}
+{"id":"synth-00977","title":"CRYPTO note #977","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00978","title":"HEALTH note #978","content":"Drink 2L of water","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-26T10:29:17.965Z"}
+{"id":"synth-00979","title":"CRYPTO note #979","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00980","title":"WORK note #980","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.965Z"}
+{"id":"synth-00981","title":"HEALTH note #981","content":"10k steps goal","tags":["health","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.966Z"}
+{"id":"synth-00982","title":"CRYPTO note #982","content":"Rotate nonces for AES-GCM","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.966Z"}
+{"id":"synth-00983","title":"RAG note #983","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.966Z"}
+{"id":"synth-00984","title":"CRYPTO note #984","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-21T10:29:17.966Z"}
+{"id":"synth-00985","title":"WORK note #985","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-17T10:29:17.966Z"}
+{"id":"synth-00986","title":"RAG note #986","content":"Retrieve Top-K with MMR","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.966Z"}
+{"id":"synth-00987","title":"CRYPTO note #987","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.966Z"}
+{"id":"synth-00988","title":"DEV note #988","content":"Refactor module boundaries","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.966Z"}
+{"id":"synth-00989","title":"RAG note #989","content":"Chunk by sentences with overlap","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.966Z"}
+{"id":"synth-00990","title":"WORK note #990","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.966Z"}
+{"id":"synth-00991","title":"CRYPTO note #991","content":"Use Argon2id for password hashing","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.966Z"}
+{"id":"synth-00992","title":"WORK note #992","content":"Update roadmap slide deck","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.966Z"}
+{"id":"synth-00993","title":"CRYPTO note #993","content":"PBKDF2 fallback with sufficient iterations","tags":["crypto","synthetic"],"source":"generator","created_at":"2025-10-25T10:29:17.966Z"}
+{"id":"synth-00994","title":"WORK note #994","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-19T10:29:17.966Z"}
+{"id":"synth-00995","title":"DEV note #995","content":"Add unit tests for edge cases","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-22T10:29:17.966Z"}
+{"id":"synth-00996","title":"WORK note #996","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-15T10:29:17.966Z"}
+{"id":"synth-00997","title":"DEV note #997","content":"Prefer composition over inheritance","tags":["dev","synthetic"],"source":"generator","created_at":"2025-10-16T10:29:17.966Z"}
+{"id":"synth-00998","title":"WORK note #998","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-28T10:29:17.966Z"}
+{"id":"synth-00999","title":"WORK note #999","content":"Prepare weekly report","tags":["work","synthetic"],"source":"generator","created_at":"2025-10-27T10:29:17.966Z"}
+{"id":"synth-01000","title":"RAG note #1000","content":"Store embeddings with metadata","tags":["rag","synthetic"],"source":"generator","created_at":"2025-10-23T10:29:17.966Z"}
